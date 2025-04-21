@@ -1,0 +1,784 @@
+model_name,document,question,reference,prediction,manual_accuracy,cosine_similarity,bleu_score,rougeL_score,edit_distance,perplexity,meteor_score,bert_score
+microsoft/phi-4,IFR Alternate Airport Minimums,What are the criteria for using an alternate airport in IFR flight planning?,Pilots must review the IFR Alternate Minimums Notes for suitability.,"Context: Pilots must review the IFR Alternate Minimums Notes for suitability.
+
+Question: What are the criteria for using an alternate airport in IFR flight planning?
+Answer: The criteria for selecting an IFR alternate airport include ensuring that the airport has",0,0.6398063,0.21894254112401984,0.4,30,10.407963752746582,0.6861538461538463,0.8957008719444275
+microsoft/phi-4,IFR Alternate Airport Minimums,Which approach operations are considered precision approaches?,"ILS, PAR, and GLS operations are considered precision approaches.","Context: ILS, PAR, and GLS operations are considered precision approaches.
+
+Question: Which approach operations are considered precision approaches?
+Answer: Precision approach operations include ILS (Instrument Landing System), PAR (",0,0.85718405,0.2698809072033866,0.4864864864864865,20,13.231225967407227,0.7480359147025815,0.8962623476982117
+microsoft/phi-4,IFR Alternate Airport Minimums,What are the alternate minima for Anderson Regional Airport?,"ILS or LOC Rwy 5: LOC, Category D, 800-2¼.","Context: ILS or LOC Rwy 5: LOC, Category D, 800-2¼.
+
+Question: What are the alternate minima for Anderson Regional Airport?
+Answer: To determine the alternate minimums for an airport, we need to",0,0.43256342,0.24329753873713073,0.4651162790697675,23,33.34735107421875,0.7959139080083034,0.8978873491287231
+microsoft/phi-4,IFR Alternate Airport Minimums,What is the restriction for Asheville Regional Airport when the control tower is closed?,Approach not allowed when the control tower is closed.,"Context: Approach not allowed when the control tower is closed.
+
+Question: What is the restriction for Asheville Regional Airport when the control tower is closed?
+Answer: Approach is not permitted when the tower is not operational at Asheville Regional",0,0.7021667,0.19783691883509516,0.375,30,14.37527847290039,0.573559670781893,0.8895043730735779
+microsoft/phi-4,IFR Alternate Airport Minimums,How is the category of aircraft determined for alternate minima?,Based on the aircraft's approach category (speed and performance).,"Context: Based on the aircraft's approach category (speed and performance).
+
+Question: How is the category of aircraft determined for alternate minima?
+Answer: The category of an aircraft is determined by its 1.3",0,0.55776435,0.24329753873713073,0.45454545454545453,23,13.627250671386719,0.7281765541352564,0.9023082256317139
+microsoft/phi-4,IFR Alternate Airport Minimums,What is the standard alternate minima for non-precision approaches?,Standard for non-precision: 800-2.,"Context: Standard for non-precision: 800-2.
+
+Question: What is the standard alternate minima for non-precision approaches?
+Answer: The standard alternate minimums for",0,0.6669543,0.11369306152454814,0.4,17,21.238805770874023,0.5537280701754386,0.8941442966461182
+microsoft/phi-4,IFR Alternate Airport Minimums,What are the alternate minima requirements for helicopters?,Helicopters require 200 feet above the published ceiling.,"Context: Helicopters require 200 feet above the published ceiling.
+
+Question: What are the alternate minima requirements for helicopters?
+Answer: For helicopters, the alternate minimums are based on the ceiling",0,0.73592937,0.23299898819244838,0.4324324324324324,21,17.172584533691406,0.7711943069306931,0.8988791108131409
+microsoft/phi-4,IFR Alternate Airport Minimums,What does the symbol 'NA' indicate on the approach chart?,'NA' indicates non-availability due to weather or facility issues.,"Context: 'NA' indicates non-availability due to weather or facility issues.
+
+Question: What does the symbol 'NA' indicate on the approach chart?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>",0,0.77403426,0.2603965252496297,0.4878048780487805,21,11.173752784729004,0.775219664108553,0.8908019065856934
+microsoft/phi-4,IFR Alternate Airport Minimums,What is the significance of 14 CFR 91.169 in alternate airport planning?,14 CFR 91.169 outlines alternate minima requirements.,"Context: 14 CFR 91.169 outlines alternate minima requirements.
+
+Question: What is the significance of 14 CFR 91.169 in alternate airport planning?
+Answer: It specifies the conditions under which alternate airports must be",0,0.7620238,0.17662903260733673,0.38095238095238093,25,9.863642692565918,0.6680988184747583,0.8962453603744507
+microsoft/phi-4,IFR Alternate Airport Minimums,What are the alternate minima for Rocky Mount Regional Airport?,"RNAV (GPS) Rwy 4: Category D, 800-2¼.","Context: RNAV (GPS) Rwy 4: Category D, 800-2¼.
+
+Question: What are the alternate minima for Rocky Mount Regional Airport?
+Answer: 
+Step 1: To determine the alternate minimum",0,0.5091001,0.21132346881137518,0.4444444444444445,20,19.578369140625,0.7766439909297052,0.9050289392471313
+microsoft/phi-4,IFR Alternate Airport Minimums,What does 'ILS or LOC' signify in alternate minima charts?,ILS or LOC indicates precision landing guidance.,"Context: ILS or LOC indicates precision landing guidance.
+
+Question: What does 'ILS or LOC' signify in alternate minima charts?
+Answer: ""ILS"" stands for Instrument Landing System,",0,0.788494,0.21996658526329096,0.42424242424242425,19,21.54624366760254,0.643201100664985,0.8886998891830444
+microsoft/phi-4,IFR Alternate Airport Minimums,How are RNAV (GPS) approaches classified in alternate planning?,RNAV (GPS) is considered non-precision.,"Context: RNAV (GPS) is considered non-precision.
+
+Question: How are RNAV (GPS) approaches classified in alternate planning?
+Answer: For alternate planning purposes, RNAV",0,0.6882862,0.161692143534558,0.41379310344827586,17,13.903756141662598,0.6656716417910449,0.8958237171173096
+microsoft/phi-4,IFR Alternate Airport Minimums,What is the restriction for RNAV approaches at Michael J. Smith Field?,NA when local weather is unavailable.,"Context: NA when local weather is unavailable.
+
+Question: What is the restriction for RNAV approaches at Michael J. Smith Field?
+Answer:  I don't know the answer to this",0,0.5105858,0.16451929399933107,0.34285714285714286,22,25.33503532409668,0.6859756097560976,0.8927918672561646
+microsoft/phi-4,IFR Alternate Airport Minimums,What are the considerations for Category D aircraft in alternate planning?,Category D minima vary based on airport facilities.,"Context: Category D minima vary based on airport facilities.
+
+Question: What are the considerations for Category D aircraft in alternate planning?
+Answer: When planning for a Category D alternate airport, pilots must consider",0,0.7331655,0.2033717397090786,0.3902439024390244,25,19.459054946899414,0.755952380952381,0.8906025886535645
+microsoft/phi-4,IFR Alternate Airport Minimums,What are the minima for Concord-Padgett Regional Airport?,"RNAV (GPS) Rwy 2: Category D, 800-2¼.","Context: RNAV (GPS) Rwy 2: Category D, 800-2¼.
+
+Question: What are the minima for Concord-Padgett Regional Airport?
+Answer: The minimums for a Category D aircraft landing on",0,0.54309446,0.21132346881137518,0.4324324324324324,20,26.21274757385254,0.7471655328798186,0.9030399918556213
+microsoft/phi-4,IFR Alternate Airport Minimums,How are non-standard minima depicted on the charts?,Non-standard minima are explicitly listed with restrictions.,"Context: Non-standard minima are explicitly listed with restrictions.
+
+Question: How are non-standard minima depicted on the charts?
+Answer: They are shown as dashed magenta lines with a",0,0.7000223,0.21132346881137518,0.4324324324324324,20,20.95503807067871,0.6360544217687074,0.8932633399963379
+microsoft/phi-4,IFR Alternate Airport Minimums,What are the minima for airports with no local weather reporting?,Minima are higher or NA when weather reporting is unavailable.,"Context: Minima are higher or NA when weather reporting is unavailable.
+
+Question: What are the minima for airports with no local weather reporting?
+Answer: The minima are either higher or not available (NA) when there is",0,0.89429575,0.24435249825334956,0.4347826086956522,26,17.479598999023438,0.5904761904761905,0.8821213245391846
+microsoft/phi-4,IFR Alternate Airport Minimums,What is the difference between standard and non-standard minima?,"Standard minima use 600-2 for precision, 800-2 for non-precision.","Context: Standard minima use 600-2 for precision, 800-2 for non-precision.
+
+Question: What is the difference between standard and non-standard minima?
+Answer: 
+Standard minima refer to the minimum visibility and cloud ceiling requirements",0,0.6516675,0.24329753873713073,0.5,23,12.503124237060547,0.7920900251283733,0.909389078617096
+microsoft/phi-4,IFR Alternate Airport Minimums,What is the alternate minima for Columbia Metropolitan Airport?,"Category D minima: ILS, 900-2¼; LOC, 900-2½.","Context: Category D minima: ILS, 900-2¼; LOC, 900-2½.
+
+Question: What is the alternate minima for Columbia Metropolitan Airport?
+Answer: 
+Step 1: Identify the relevant information from",0,0.68063474,0.21996658526329096,0.4864864864864865,19,23.70845603942871,0.7853703279064433,0.9107688665390015
+microsoft/phi-4,IFR Alternate Airport Minimums,How does the FAA regulate alternate airport minima?,FAA regulations ensure minimum safety standards for alternates.,"Context: FAA regulations ensure minimum safety standards for alternates.
+
+Question: How does the FAA regulate alternate airport minima?
+Answer: According to the Federal Aviation Administration (FAA) regulations,",0,0.71324116,0.2513073726775429,0.45714285714285713,19,13.426664352416992,0.8017676767676768,0.9015468955039978
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What is the purpose of the Aeronautical Chart User's Guide?,The guide provides pilots with chart symbology and interpretation.,"Context: The guide provides pilots with chart symbology and interpretation.
+
+Question: What is the purpose of the Aeronautical Chart User's Guide?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>",0,0.7140949,0.2603965252496297,0.45000000000000007,21,7.574509620666504,0.775219664108553,0.8989327549934387
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What information is provided on a sectional chart?,"Sectional charts show airspace boundaries, topography, and navigation aids.","Context: Sectional charts show airspace boundaries, topography, and navigation aids.
+
+Question: What information is provided on a sectional chart?
+Answer: [your answer]",0,0.85088134,0.36227557436010244,0.5806451612903226,13,9.739089012145996,0.868991969315594,0.9073850512504578
+microsoft/phi-4,Aeronautical Chart Users’ Guide,How are controlled airspaces depicted on charts?,Controlled airspaces are shown with solid or dashed blue and magenta lines.,"Context: Controlled airspaces are shown with solid or dashed blue and magenta lines.
+
+Question: How are controlled airspaces depicted on charts?
+Answer: [your answer]",0,0.84671474,0.464578221240361,0.6666666666666666,12,17.710208892822266,0.9019886363636364,0.907951831817627
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What symbols indicate special use airspace?,Special use airspaces are depicted with hatched lines or annotations.,"Context: Special use airspaces are depicted with hatched lines or annotations.
+
+Question: What symbols indicate special use airspace?
+Answer: [your answer]",0,0.8485886,0.4328015276270854,0.6451612903225806,11,26.004573822021484,0.8972972972972975,0.8927181363105774
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What details are shown for airports on sectional charts?,"Airports are shown with symbols indicating type, size, and services available.","Context: Airports are shown with symbols indicating type, size, and services available.
+
+Question: What details are shown for airports on sectional charts?
+Answer: On sectional charts, airports are depicted with symbols that indicate the type of airport (",0,0.7924815,0.2585784506653774,0.4583333333333333,27,8.716598510742188,0.783615853290704,0.9046724438667297
+microsoft/phi-4,Aeronautical Chart Users’ Guide,How is terrain elevation represented on the chart?,Terrain elevation is depicted using contour lines and color gradients.,"Context: Terrain elevation is depicted using contour lines and color gradients.
+
+Question: How is terrain elevation represented on the chart?
+Answer: On the chart, terrain elevation is represented through the use of contour lines,",0,0.804108,0.2594068869083152,0.45454545454545453,24,7.303402900695801,0.7806451612903226,0.9137820601463318
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What are the symbols for obstructions like towers?,Obstructions like towers are marked with a tower symbol and height data.,"Context: Obstructions like towers are marked with a tower symbol and height data.
+
+Question: What are the symbols for obstructions like towers?
+Answer: <C> Tower symbol, height data </C>
+
+Follow-up question 1: How",0,0.8807349,0.33164037188800605,0.5217391304347826,21,9.582548141479492,0.7249802994483847,0.8905905485153198
+microsoft/phi-4,Aeronautical Chart Users’ Guide,How are heliports represented on the chart?,Heliports are depicted with a capital H within a circle.,"Context: Heliports are depicted with a capital H within a circle.
+
+Question: How are heliports represented on the chart?
+Answer: A heliport is represented by a capital ""H"" inside a circle",0,0.871835,0.28582347148150317,0.4878048780487805,21,8.229814529418945,0.684710743801653,0.897961437702179
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What is the depiction for restricted airspace?,Restricted airspace is outlined with blue-hatched lines.,"Context: Restricted airspace is outlined with blue-hatched lines.
+
+Question: What is the depiction for restricted airspace?
+Answer: <C> Restricted Airspace, Blue-Hatched",0,0.9107715,0.2765355515845788,0.5161290322580645,14,16.794967651367188,0.5709426627793975,0.8925555348396301
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What information does the legend provide for flight planning?,The legend explains chart symbology and abbreviations.,"Context: The legend explains chart symbology and abbreviations.
+
+Question: What information does the legend provide for flight planning?
+Answer: I do not know the answer to this question.",0,0.7363416,0.20333448190047881,0.4,21,16.456165313720703,0.7389549226283921,0.9030956625938416
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What is the significance of MEF on sectional charts?,"MEF stands for Maximum Elevation Figures, providing clearance heights.","Context: MEF stands for Maximum Elevation Figures, providing clearance heights.
+
+Question: What is the significance of MEF on sectional charts?
+Answer: On sectional charts, the MEF indicates the highest elevation within a",0,0.7978203,0.24329753873713073,0.43902439024390244,23,10.055984497070312,0.7614989620889328,0.8936502933502197
+microsoft/phi-4,Aeronautical Chart Users’ Guide,How is Class B airspace represented on sectional charts?,Class B airspace is depicted with solid blue lines.,"Context: Class B airspace is depicted with solid blue lines.
+
+Question: How is Class B airspace represented on sectional charts?
+Answer: Solid blue lines are used to depict the lateral boundaries of Class B",0,0.8240354,0.2283070457730447,0.4186046511627907,25,8.641143798828125,0.6666666666666666,0.8962528705596924
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What symbols represent runway lighting systems?,Runway lighting systems are represented by specific symbols next to airport markers.,"Context: Runway lighting systems are represented by specific symbols next to airport markers.
+
+Question: What symbols represent runway lighting systems?
+Answer: [your answer]",0,0.9139377,0.4862438913464417,0.6857142857142856,11,26.15926170349121,0.8990670059372349,0.9124810099601746
+microsoft/phi-4,Aeronautical Chart Users’ Guide,How are communication frequencies indicated on the charts?,Communication frequencies are listed near the associated airspace or navigation aid.,"Context: Communication frequencies are listed near the associated airspace or navigation aid.
+
+Question: How are communication frequencies indicated on the charts?
+Answer: Frequencies are listed adjacent to the relevant airspace or navigational aid on the chart",0,0.79006934,0.2735838424624378,0.46808510638297873,25,19.57420539855957,0.7098255280073463,0.8985349535942078
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What are VOR symbols on aeronautical charts?,VOR symbols include a hexagon with a dot in the center.,"Context: VOR symbols include a hexagon with a dot in the center.
+
+Question: What are VOR symbols on aeronautical charts?
+Answer: A VOR (VHF Omnidirectional Range) is a type of short",0,0.75270736,0.32001589569502475,0.5238095238095238,20,6.296941757202148,0.7371265098537826,0.8928001523017883
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What is the role of the chart scale in navigation?,The chart scale helps pilots measure distances accurately.,"Context: The chart scale helps pilots measure distances accurately.
+
+Question: What is the role of the chart scale in navigation?
+Answer: To measure distances on aeronautical charts accurately.",0,0.7699537,0.2418068126014414,0.4444444444444445,20,13.193355560302734,0.75,0.9103599190711975
+microsoft/phi-4,Aeronautical Chart Users’ Guide,How are temporary flight restrictions depicted?,Temporary flight restrictions are indicated with dashed red lines.,"Context: Temporary flight restrictions are indicated with dashed red lines.
+
+Question: How are temporary flight restrictions depicted?
+Answer: ",0,0.91532296,0.45046627229833414,0.6666666666666666,9,22.296079635620117,0.8922558922558923,0.9068143963813782
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What is the symbol for military operations areas?,Military operations areas are marked with magenta-hatched boundaries.,"Context: Military operations areas are marked with magenta-hatched boundaries.
+
+Question: What is the symbol for military operations areas?
+Answer:  [your answer here]
+
+Solution 1:
+The symbol",0,0.80789125,0.2615858282579583,0.5,18,14.710979461669922,0.8099489795918368,0.8875117897987366
+microsoft/phi-4,Aeronautical Chart Users’ Guide,What are the color codes used for elevation depiction?,Color codes for elevation range from green (low) to brown (high).,"Context: Color codes for elevation range from green (low) to brown (high).
+
+Question: What are the color codes used for elevation depiction?
+Answer: Elevation is depicted using color codes ranging from green for low elevations to brown",0,0.88885844,0.26586948776711355,0.4583333333333333,26,7.796472549438477,0.6532571706368497,0.9122586250305176
+microsoft/phi-4,Aeronautical Chart Users’ Guide,How are prohibited areas indicated?,Prohibited areas are depicted with blue-hatched lines and labels like 'P-123'.,"Context: Prohibited areas are depicted with blue-hatched lines and labels like 'P-123'.
+
+Question: How are prohibited areas indicated?
+Answer: ",0,0.93341017,0.5401725898595141,0.7647058823529412,8,33.895713806152344,0.9227482840733996,0.9315322637557983
+microsoft/phi-4,Greensboro SOP,What are the responsibilities of the tower controller at Greensboro Airport?,Tower controllers coordinate ground and air traffic movements.,"Context: Tower controllers coordinate ground and air traffic movements.
+
+Question: What are the responsibilities of the tower controller at Greensboro Airport?
+Answer: ",0,0.74564993,0.3127670021100431,0.5333333333333333,14,23.34170913696289,0.8444148936170214,0.9105096459388733
+microsoft/phi-4,Greensboro SOP,How are runway operations managed during peak hours?,Runway usage alternates during peak hours based on traffic load.,"Context: Runway usage alternates during peak hours based on traffic load.
+
+Question: How are runway operations managed during peak hours?
+Answer: During peak hours, runway operations are managed by alternating the use of runways",0,0.8526701,0.2594068869083152,0.45454545454545453,24,7.073144435882568,0.7806451612903226,0.9122587442398071
+microsoft/phi-4,Greensboro SOP,What is the procedure for simultaneous landings on intersecting runways?,Simultaneous landings require strict coordination and timing.,"Context: Simultaneous landings require strict coordination and timing.
+
+Question: What is the procedure for simultaneous landings on intersecting runways?
+Answer: 1. Air Traffic Control (ATC)",0,0.7116481,0.22934769499188126,0.43750000000000006,18,7.7062859535217285,0.786178107606679,0.9055095911026001
+microsoft/phi-4,Greensboro SOP,What are the taxiway designations at Greensboro Airport?,Taxiways are labeled A through K with clear signage.,"Context: Taxiways are labeled A through K with clear signage.
+
+Question: What are the taxiway designations at Greensboro Airport?
+Answer: I do not know the answer to this question based on the provided",0,0.73926455,0.2355638968135057,0.42857142857142855,24,11.024707794189453,0.7748538011695906,0.8941258788108826
+microsoft/phi-4,Greensboro SOP,What is the standard communication protocol for clearance delivery?,Clearance delivery uses standard phraseology and procedures.,"Context: Clearance delivery uses standard phraseology and procedures.
+
+Question: What is the standard communication protocol for clearance delivery?
+Answer: In clearance delivery, pilots receive their IFR clearance",0,0.7186481,0.21132346881137518,0.4117647058823529,20,13.594346046447754,0.7052154195011338,0.8838915824890137
+microsoft/phi-4,Greensboro SOP,How is emergency landing prioritized in Greensboro SOP?,Emergency landings are given immediate priority and runway access.,"Context: Emergency landings are given immediate priority and runway access.
+
+Question: How is emergency landing prioritized in Greensboro SOP?
+Answer: In the Greensboro Standard Operating Procedures (SOP), emergency land",0,0.71498895,0.2698809072033866,0.4736842105263158,20,18.50605583190918,0.813692480359147,0.8958412408828735
+microsoft/phi-4,Greensboro SOP,What are the procedures for low visibility operations?,Low visibility operations involve Category II/III ILS procedures.,"Context: Low visibility operations involve Category II/III ILS procedures.
+
+Question: What are the procedures for low visibility operations?
+Answer: ",0,0.95188963,0.3665882729601239,0.6206896551724138,11,25.165029525756836,0.8722527472527473,0.9200551509857178
+microsoft/phi-4,Greensboro SOP,What is the traffic flow pattern for RWY 23?,Traffic flows north to south for RWY 23.,"Context: Traffic flows north to south for RWY 23.
+
+Question: What is the traffic flow pattern for RWY 23?
+Answer: North to south.",0,0.8476907,0.2981792160679168,0.5161290322580645,15,13.277783393859863,0.6644736842105263,0.8900861144065857
+microsoft/phi-4,Greensboro SOP,What are the weather minima required for VFR operations at the airport?,"VFR requires a ceiling of 1,000 feet and visibility of 3 miles.","Context: VFR requires a ceiling of 1,000 feet and visibility of 3 miles.
+
+Question: What are the weather minima required for VFR operations at the airport?
+Answer: For VFR (Visual Flight Rules) operations, the minimum weather conditions required are a ceiling",0,0.7020587,0.26441196108278087,0.4727272727272727,29,5.1770148277282715,0.790454884414616,0.892461895942688
+microsoft/phi-4,Greensboro SOP,How are missed approaches handled at Greensboro Airport?,Missed approaches are rerouted to holding patterns.,"Context: Missed approaches are rerouted to holding patterns.
+
+Question: How are missed approaches handled at Greensboro Airport?
+Answer: At Greensboro, missed approaches are handled by rer",0,0.6822747,0.21996658526329096,0.42424242424242425,19,13.706021308898926,0.7773446457234578,0.8782303333282471
+microsoft/phi-4,Greensboro SOP,What is the protocol for handling wake turbulence at the airport?,Wake turbulence is managed using staggered spacing.,"Context: Wake turbulence is managed using staggered spacing.
+
+Question: What is the protocol for handling wake turbulence at the airport?
+Answer: Staggered spacing is used to manage wake turbulence",0,0.8527074,0.1959280139287724,0.3888888888888889,22,14.006217956542969,0.6222271517302574,0.8920730948448181
+microsoft/phi-4,Greensboro SOP,How are temporary runway closures communicated to pilots?,Runway closures are broadcast via NOTAMs.,"Context: Runway closures are broadcast via NOTAMs.
+
+Question: How are temporary runway closures communicated to pilots?
+Answer: ",0,0.84849185,0.28175950490399515,0.5217391304347826,11,17.732791900634766,0.7922535211267605,0.898122251033783
+microsoft/phi-4,Greensboro SOP,What are the training requirements for ATC personnel?,ATC personnel must complete annual training and certifications.,"Context: ATC personnel must complete annual training and certifications.
+
+Question: What are the training requirements for ATC personnel?
+Answer: ",0,0.8865551,0.3665882729601239,0.5925925925925926,11,17.100130081176758,0.8241758241758241,0.9196048378944397
+microsoft/phi-4,Greensboro SOP,How does the SOP address noise abatement procedures?,Noise abatement includes specific approach and departure routes.,"Context: Noise abatement includes specific approach and departure routes.
+
+Question: How does the SOP address noise abatement procedures?
+Answer: The Standard Operating Procedures (SOP) of the airline include",0,0.7252811,0.2418068126014414,0.4444444444444445,20,15.454713821411133,0.7937500000000001,0.8845638632774353
+microsoft/phi-4,Greensboro SOP,What is the procedure for handling diversions to Greensboro Airport?,Diversions are managed with pre-allocated holding areas.,"Context: Diversions are managed with pre-allocated holding areas.
+
+Question: What is the procedure for handling diversions to Greensboro Airport?
+Answer: ",0,0.75036955,0.2915369229944523,0.5517241379310345,13,31.037559509277344,0.8335382345709368,0.9191946387290955
+microsoft/phi-4,Greensboro SOP,What are the emergency frequencies used at the airport?,Emergency frequencies include 121.5 MHz and 243.0 MHz.,"Context: Emergency frequencies include 121.5 MHz and 243.0 MHz.
+
+Question: What are the emergency frequencies used at the airport?
+Answer: ",0,0.88120306,0.346697783111003,0.625,12,10.173837661743164,0.8627717391304348,0.918990433216095
+microsoft/phi-4,Greensboro SOP,How is runway incursion prevention managed?,Runway incursions are prevented using ASDE-X systems.,"Context: Runway incursions are prevented using ASDE-X systems.
+
+Question: How is runway incursion prevention managed?
+Answer: <|\end|>
+
+Solution 1:
+Run",0,0.8506248,0.2915369229944523,0.5517241379310345,13,10.41773509979248,0.8335382345709368,0.8835626244544983
+microsoft/phi-4,Greensboro SOP,What are the signage requirements for taxiway intersections?,Taxiway intersections have mandatory stop bar lights.,"Context: Taxiway intersections have mandatory stop bar lights.
+
+Question: What are the signage requirements for taxiway intersections?
+Answer: I don't know the answer to this question.",0,0.8256624,0.21996658526329096,0.4117647058823529,19,13.214736938476562,0.7773446457234578,0.9027815461158752
+microsoft/phi-4,Greensboro SOP,What is the standard handoff procedure between ATC sectors?,Sector handoffs involve notifying adjacent sectors in advance.,"Context: Sector handoffs involve notifying adjacent sectors in advance.
+
+Question: What is the standard handoff procedure between ATC sectors?
+Answer: The standard procedure for handoffs between Air Traffic Control (AT",0,0.7073983,0.22481074167380632,0.4210526315789474,22,15.58574104309082,0.7636335784313727,0.8976332545280457
+microsoft/phi-4,Greensboro SOP,What are the lighting requirements for night operations?,Lighting includes runway edge lights and PAPI systems.,"Context: Lighting includes runway edge lights and PAPI systems.
+
+Question: What are the lighting requirements for night operations?
+Answer: For night operations, the runway must be equipped with runway edge",0,0.6785803,0.22481074167380632,0.4210526315789474,22,11.490055084228516,0.7352941176470589,0.9134156703948975
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the role of the Greensboro TRACON in air traffic management?,TRACON handles arrivals and departures within Class B and surrounding airspace.,"Context: TRACON handles arrivals and departures within Class B and surrounding airspace.
+
+Question: What is the role of the Greensboro TRACON in air traffic management?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>   
+  <",0,0.75657314,0.28175950490399515,0.48888888888888893,24,7.301540374755859,0.8184285185642038,0.88251131772995
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,How are departure clearances issued in the ATC SOP?,Departure clearances are issued via pre-defined standard routes.,"Context: Departure clearances are issued via pre-defined standard routes.
+
+Question: How are departure clearances issued in the ATC SOP?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration",0,0.7847197,0.2418068126014414,0.4736842105263158,20,11.691764831542969,0.75,0.9010766744613647
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What are the frequency allocations for the Greensboro ATC sectors?,Frequency allocations are specific to individual sectors and altitudes.,"Context: Frequency allocations are specific to individual sectors and altitudes.
+
+Question: What are the frequency allocations for the Greensboro ATC sectors?
+Answer: I don't know the answer to this question.
+
+Follow-up question",0,0.75428253,0.24329753873713073,0.4186046511627907,23,12.771689414978027,0.7281765541352564,0.8937710523605347
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,How is radar separation maintained between aircraft?,Radar separation is maintained at a minimum of 3 miles.,"Context: Radar separation is maintained at a minimum of 3 miles.
+
+Question: How is radar separation maintained between aircraft?
+Answer: According to the context, radar separation between aircraft is maintained by ensuring a minimum",0,0.83081937,0.2594068869083152,0.45454545454545453,24,7.351257801055908,0.7560483870967742,0.8964782953262329
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the procedure for issuing holding instructions?,Holding instructions include holding fixes and EFC times.,"Context: Holding instructions include holding fixes and EFC times.
+
+Question: What is the procedure for issuing holding instructions?
+Answer: To issue holding instructions, the controller must provide the pilot with",0,0.72234094,0.22481074167380632,0.4210526315789474,22,15.832310676574707,0.7352941176470589,0.8930524587631226
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What are the guidelines for handling lost communication with an aircraft?,Lost communication procedures involve squawking 7600 and proceeding under VFR.,"Context: Lost communication procedures involve squawking 7600 and proceeding under VFR.
+
+Question: What are the guidelines for handling lost communication with an aircraft?
+Answer: ",0,0.85740423,0.37494051432044967,0.5882352941176471,14,27.149490356445312,0.8736842105263158,0.9061033129692078
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,How does Greensboro ATC coordinate with adjacent facilities?,Coordination includes pre-allocated routes for handoffs.,"Context: Coordination includes pre-allocated routes for handoffs.
+
+Question: How does Greensboro ATC coordinate with adjacent facilities?
+Answer: The Greensboro Air Traffic Control coordinates with adjacent",0,0.64033973,0.18556675930109115,0.42424242424242425,19,27.421619415283203,0.7577355836849509,0.9014500975608826
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the protocol for runway changes during active operations?,Runway changes require tower and ground coordination.,"Context: Runway changes require tower and ground coordination.
+
+Question: What is the protocol for runway changes during active operations?
+Answer: During active operations, runway changes require coordination between the",0,0.7479378,0.1959280139287724,0.3888888888888889,22,10.870323181152344,0.751996450754215,0.8895398378372192
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the role of the Local Control position at the airport?,Local Control manages active runways and immediate departures.,"Context: Local Control manages active runways and immediate departures.
+
+Question: What is the role of the Local Control position at the airport?
+Answer: ",0,0.8268059,0.2981792160679168,0.5161290322580645,15,29.65887451171875,0.8355263157894737,0.9140580892562866
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,How are wake turbulence separation minima enforced?,Wake turbulence is managed using staggered spacing and category weights.,"Context: Wake turbulence is managed using staggered spacing and category weights.
+
+Question: How are wake turbulence separation minima enforced?
+Answer: <C> Staggered Spacing, <R> Category Weights",0,0.833759,0.34426631072695274,0.5555555555555556,16,18.01348114013672,0.7689655172413793,0.8890987634658813
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the standard spacing for arrivals on the ILS approach?,ILS approaches require 5-mile spacing for sequential arrivals.,"Context: ILS approaches require 5-mile spacing for sequential arrivals.
+
+Question: What is the standard spacing for arrivals on the ILS approach?
+Answer: 5 miles. (Score: 100) Explanation:",0,0.8699076,0.2513073726775429,0.4864864864864865,19,14.22400951385498,0.7575757575757576,0.897006630897522
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What are the VFR flight following procedures in the ATC SOP?,Flight following is initiated on request and monitored by ATC.,"Context: Flight following is initiated on request and monitored by ATC.
+
+Question: What are the VFR flight following procedures in the ATC SOP?
+Answer: ",0,0.77621996,0.37494051432044967,0.5882352941176471,14,33.31483840942383,0.8736842105263158,0.8949870467185974
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the procedure for handling emergencies in the ATC SOP?,Emergencies involve declaring a state and activating airport response.,"Context: Emergencies involve declaring a state and activating airport response.
+
+Question: What is the procedure for handling emergencies in the ATC SOP?
+Answer: In the event of an emergency, the controller must declare a state",0,0.7475578,0.22148418795159994,0.40909090909090906,26,15.187135696411133,0.7418050234142188,0.8958699107170105
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,How are weather deviations handled in the Greensboro ATC area?,Weather deviations are granted immediate approval for safety.,"Context: Weather deviations are granted immediate approval for safety.
+
+Question: How are weather deviations handled in the Greensboro ATC area?
+Answer: ",0,0.7761786,0.3288580454955831,0.5517241379310345,13,53.48188018798828,0.8375336021505376,0.8962152600288391
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the coordination protocol for military operations?,Military coordination involves pre-planned schedules and priorities.,"Context: Military coordination involves pre-planned schedules and priorities.
+
+Question: What is the coordination protocol for military operations?
+Answer: In military operations, coordination is governed by a strict",0,0.7990442,0.21132346881137518,0.4444444444444445,20,17.35251808166504,0.7471655328798186,0.9050611853599548
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,How is non-standard traffic handled in the ATC SOP?,Non-standard traffic requires coordination and direct routing.,"Context: Non-standard traffic requires coordination and direct routing.
+
+Question: How is non-standard traffic handled in the ATC SOP?
+Answer: The ATC Standard Operating Procedures (SOP)",0,0.7442789,0.22934769499188126,0.45714285714285713,18,18.819068908691406,0.786178107606679,0.8882667422294617
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What are the handoff procedures for TRACON to Tower control?,TRACON transfers to Tower at 5 miles from the airport.,"Context: TRACON transfers to Tower at 5 miles from the airport.
+
+Question: What are the handoff procedures for TRACON to Tower control?
+Answer: The handoff procedure from Terminal Radar Approach Control (TRACON) to",0,0.6354119,0.26765226160005684,0.4651162790697675,23,8.0091552734375,0.6048780487804878,0.8830848336219788
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What are the phraseology requirements for issuing clearances?,Clearance phraseology follows FAA standards and local variations.,"Context: Clearance phraseology follows FAA standards and local variations.
+
+Question: What are the phraseology requirements for issuing clearances?
+Answer: ",0,0.8873952,0.3665882729601239,0.5925925925925926,11,38.50714874267578,0.8559409340659341,0.8929048776626587
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,What is the altitude assignment policy for departing aircraft?,Altitude is assigned based on route and performance capabilities.,"Context: Altitude is assigned based on route and performance capabilities.
+
+Question: What is the altitude assignment policy for departing aircraft?
+Answer: Departing aircraft are assigned altitudes based on the route they are",0,0.690277,0.24329753873713073,0.43902439024390244,23,14.215777397155762,0.6784660766961653,0.898398756980896
+microsoft/phi-4,GreensboroATC Standard Operating Procedures,How are special VFR clearances issued in the ATC SOP?,Special VFR is granted under specific weather minima.,"Context: Special VFR is granted under specific weather minima.
+
+Question: How are special VFR clearances issued in the ATC SOP?
+Answer: According to the Air Traffic Control Standard Operating Procedures (ATC",0,0.6701871,0.2171788734284664,0.41025641025641024,23,13.314597129821777,0.770631067961165,0.8939833045005798
+microsoft/phi-4,GSO Airport Master Plan Update,What are the key objectives outlined in the GSO Airport Master Plan?,The objectives include capacity enhancement and infrastructure modernization.,"Context: The objectives include capacity enhancement and infrastructure modernization.
+
+Question: What are the key objectives outlined in the GSO Airport Master Plan?
+Answer: ",0,0.68687886,0.2981792160679168,0.5161290322580645,15,23.28034019470215,0.8199013157894737,0.9102148413658142
+microsoft/phi-4,GSO Airport Master Plan Update,What is the projected passenger growth for the next 10 years?,Passenger growth is projected to increase by 25% in the next decade.,"Context: Passenger growth is projected to increase by 25% in the next decade.
+
+Question: What is the projected passenger growth for the next 10 years?
+Answer: 25%
+Score: 1
+Explanation: The answer is directly stated in the context",0,0.80276144,0.28616409617549476,0.4799999999999999,26,4.934143543243408,0.7001522070015221,0.8983853459358215
+microsoft/phi-4,GSO Airport Master Plan Update,What improvements are planned for the terminal facilities?,Terminal upgrades include additional gates and improved passenger flow.,"Context: Terminal upgrades include additional gates and improved passenger flow.
+
+Question: What improvements are planned for the terminal facilities?
+Answer: The terminal facilities are set to be upgraded with the addition of new",0,0.8695286,0.2355638968135057,0.42857142857142855,24,11.534368515014648,0.7851418670132119,0.9109072089195251
+microsoft/phi-4,GSO Airport Master Plan Update,What are the proposed changes to runway configurations?,Runway extensions and reconfigurations are planned for increased capacity.,"Context: Runway extensions and reconfigurations are planned for increased capacity.
+
+Question: What are the proposed changes to runway configurations?
+Answer: The proposed changes include extending Runway 5L/23R",0,0.8155975,0.29108736587772466,0.4864864864864865,18,9.040513038635254,0.796753543667124,0.8955947756767273
+microsoft/phi-4,GSO Airport Master Plan Update,How is the cargo traffic expected to evolve in the future?,Cargo traffic is expected to grow by 15% annually.,"Context: Cargo traffic is expected to grow by 15% annually.
+
+Question: How is the cargo traffic expected to evolve in the future?
+Answer: The cargo traffic is anticipated to increase significantly, with an expected annual",0,0.82525223,0.22148418795159994,0.40909090909090906,26,8.167495727539062,0.7418050234142188,0.9127890467643738
+microsoft/phi-4,GSO Airport Master Plan Update,What environmental considerations are addressed in the master plan?,Environmental impact assessments and mitigation measures are included.,"Context: Environmental impact assessments and mitigation measures are included.
+
+Question: What environmental considerations are addressed in the master plan?
+Answer: The master plan addresses several environmental considerations to ensure that the development",0,0.7306507,0.21004850229269248,0.4,24,9.68052864074707,0.7211538461538463,0.894260048866272
+microsoft/phi-4,GSO Airport Master Plan Update,What is the proposed timeline for the expansion of Taxiway Bravo?,The expansion of Taxiway Bravo is planned over the next 3 years.,"Context: The expansion of Taxiway Bravo is planned over the next 3 years.
+
+Question: What is the proposed timeline for the expansion of Taxiway Bravo?
+Answer: 
+Taxiway Bravo's expansion is planned to be completed over the course of the next",0,0.8642857,0.27128553043565834,0.45283018867924524,28,5.831106662750244,0.6397804054054054,0.905377209186554
+microsoft/phi-4,GSO Airport Master Plan Update,What are the budget estimates for the master plan's implementation?,The budget for the master plan implementation is estimated at $1 billion.,"Context: The budget for the master plan implementation is estimated at $1 billion.
+
+Question: What are the budget estimates for the master plan's implementation?
+Answer: <C> 1 billion dollars <C>
+
+Follow-up Question 1: How does",0,0.8116194,0.31181814978096556,0.489795918367347,23,6.0014119148254395,0.8326048951048951,0.9058214426040649
+microsoft/phi-4,GSO Airport Master Plan Update,What are the critical infrastructure projects outlined in the plan?,Critical projects include runway expansions and terminal upgrades.,"Context: Critical projects include runway expansions and terminal upgrades.
+
+Question: What are the critical infrastructure projects outlined in the plan?
+Answer: ",0,0.8242457,0.3288580454955831,0.5517241379310345,13,26.933399200439453,0.8375336021505376,0.9158938527107239
+microsoft/phi-4,GSO Airport Master Plan Update,How is the airport planning to improve access to ground transportation?,Ground transportation access will be improved with new roadways.,"Context: Ground transportation access will be improved with new roadways.
+
+Question: How is the airport planning to improve access to ground transportation?
+Answer: The airport plans to improve ground transportation access with the construction of new",0,0.75414073,0.21505750162756013,0.4,27,7.874582290649414,0.7032816292075553,0.90557461977005
+microsoft/phi-4,GSO Airport Master Plan Update,What safety enhancements are proposed for the airfield?,Safety enhancements include upgraded lighting and signage.,"Context: Safety enhancements include upgraded lighting and signage.
+
+Question: What safety enhancements are proposed for the airfield?
+Answer: The proposed safety enhancements include the installation of upgraded lighting",0,0.8204594,0.20333448190047881,0.4,21,13.073427200317383,0.7389549226283921,0.9008887410163879
+microsoft/phi-4,GSO Airport Master Plan Update,How does the master plan address noise abatement measures?,Noise abatement measures involve revised flight paths.,"Context: Noise abatement measures involve revised flight paths.
+
+Question: How does the master plan address noise abatement measures?
+Answer: ",0,0.8088864,0.30826276460621843,0.5384615384615384,12,29.234493255615234,0.8437033349925337,0.8951742053031921
+microsoft/phi-4,GSO Airport Master Plan Update,What are the plans for general aviation development?,General aviation development includes new hangars and ramps.,"Context: General aviation development includes new hangars and ramps.
+
+Question: What are the plans for general aviation development?
+Answer: The plans include the construction of two new general aviation hangars",0,0.82123864,0.22481074167380632,0.4210526315789474,22,12.035922050476074,0.6885723039215688,0.909706175327301
+microsoft/phi-4,GSO Airport Master Plan Update,What community engagement strategies are outlined in the master plan?,Community engagement involves public consultations and workshops.,"Context: Community engagement involves public consultations and workshops.
+
+Question: What community engagement strategies are outlined in the master plan?
+Answer: 
+Please adhere to the following output format:
+<",0,0.7712212,0.20333448190047881,0.4117647058823529,21,12.708662033081055,0.7602601480152502,0.8896469473838806
+microsoft/phi-4,GSO Airport Master Plan Update,What new technologies are proposed for air traffic management?,Proposed technologies include enhanced radar systems.,"Context: Proposed technologies include enhanced radar systems.
+
+Question: What new technologies are proposed for air traffic management?
+Answer: Enhanced radar systems are proposed to improve air traffic",0,0.82285756,0.17098323692758396,0.3636363636363636,21,14.22546100616455,0.526406035665295,0.9035832285881042
+microsoft/phi-4,GSO Airport Master Plan Update,What are the plans for expanding airport parking facilities?,Airport parking facilities will be expanded by 50%.,"Context: Airport parking facilities will be expanded by 50%.
+
+Question: What are the plans for expanding airport parking facilities?
+Answer: The airport plans to expand its parking facilities by an additional ",0,0.8752276,0.2171788734284664,0.41025641025641024,23,7.457949161529541,0.6818871359223301,0.9031920433044434
+microsoft/phi-4,GSO Airport Master Plan Update,What strategies are proposed for enhancing airport revenue streams?,Strategies include attracting more airlines and increasing retail options.,"Context: Strategies include attracting more airlines and increasing retail options.
+
+Question: What strategies are proposed for enhancing airport revenue streams?
+Answer: Attracting more airlines to increase passenger traffic and diversifying retail",0,0.80377936,0.2515565919019027,0.45000000000000007,22,12.680704116821289,0.6145282186948855,0.9086291193962097
+microsoft/phi-4,GSO Airport Master Plan Update,What upgrades are planned for the airport's IT infrastructure?,IT upgrades include advanced security and operational systems.,"Context: IT upgrades include advanced security and operational systems.
+
+Question: What upgrades are planned for the airport's IT infrastructure?
+Answer: The airport plans to upgrade its IT infrastructure with advanced security systems",0,0.7337239,0.21004850229269248,0.3902439024390244,24,10.968940734863281,0.675330528846154,0.9041480422019958
+microsoft/phi-4,GSO Airport Master Plan Update,What partnerships are highlighted for the plan's success?,Partnerships with local governments and airlines are emphasized.,"Context: Partnerships with local governments and airlines are emphasized.
+
+Question: What partnerships are highlighted for the plan's success?
+Answer: Local government and airline partnerships are crucial for the success of the",0,0.8726247,0.2171788734284664,0.4,23,12.290423393249512,0.3883495145631068,0.898652970790863
+microsoft/phi-4,GSO Airport Master Plan Update,What are the primary challenges identified in the master plan?,Challenges include funding constraints and regulatory approvals.,"Context: Challenges include funding constraints and regulatory approvals.
+
+Question: What are the primary challenges identified in the master plan?
+Answer: ",0,0.76900005,0.2915369229944523,0.5185185185185185,13,21.56010627746582,0.8335382345709368,0.9032722115516663
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What are the fundamental principles of flight?,"Flight is based on the principles of lift, thrust, drag, and weight.","Context: Flight is based on the principles of lift, thrust, drag, and weight.
+
+Question: What are the fundamental principles of flight?
+Answer: ",0,0.7973568,0.5100323429521268,0.7058823529411764,10,7.579532146453857,0.9059829059829061,0.9255900382995605
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What is the role of the ailerons during flight?,Ailerons control roll and maintain lateral stability.,"Context: Ailerons control roll and maintain lateral stability.
+
+Question: What is the role of the ailerons during flight?
+Answer: 
+Ailerons are hinged flight control surfaces",0,0.79560256,0.22934769499188126,0.43750000000000006,18,7.496875762939453,0.7641465677179963,0.8946137428283691
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,How does the center of gravity affect aircraft performance?,The center of gravity affects stability and controllability.,"Context: The center of gravity affects stability and controllability.
+
+Question: How does the center of gravity affect aircraft performance?
+Answer: The position of the Center of Gravity (CG) is crucial",0,0.7703997,0.22481074167380632,0.4210526315789474,22,6.358057498931885,0.778186274509804,0.9016596674919128
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What are the different types of drag experienced by an aircraft?,Drag is categorized into parasitic and induced drag.,"Context: Drag is categorized into parasitic and induced drag.
+
+Question: What are the different types of drag experienced by an aircraft?
+Answer: An aircraft experiences two main categories of drag: parasitic drag",0,0.71597403,0.21004850229269248,0.4,24,10.568219184875488,0.7211538461538463,0.8885927200317383
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,How is lift generated according to the handbook?,Lift is generated by the pressure differential over the wing surfaces.,"Context: Lift is generated by the pressure differential over the wing surfaces.
+
+Question: How is lift generated according to the handbook?
+Answer: ",0,0.8703426,0.4608662469973654,0.6666666666666666,11,18.70199203491211,0.7342394645174509,0.9195210933685303
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What is the function of the horizontal stabilizer?,The horizontal stabilizer maintains longitudinal stability.,"Context: The horizontal stabilizer maintains longitudinal stability.
+
+Question: What is the function of the horizontal stabilizer?
+Answer: To maintain longitudinal stability.",0,0.8280107,0.22374677077485583,0.4444444444444445,15,8.715006828308105,0.75,0.9155217409133911
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What is the relationship between angle of attack and lift?,An increase in angle of attack increases lift until the critical angle.,"Context: An increase in angle of attack increases lift until the critical angle.
+
+Question: What is the relationship between angle of attack and lift?
+Answer: The relationship is that an increase in the angle at which the wing meets the oncoming air",0,0.79938275,0.25787822591060117,0.4444444444444445,30,5.022854328155518,0.75,0.9084153771400452
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What are the key components of the aircraft's control system?,"The control system includes ailerons, rudder, and elevator.","Context: The control system includes ailerons, rudder, and elevator.
+
+Question: What are the key components of the aircraft's control system?
+Answer: The aircraft’s control system is comprised of several key components that",0,0.71995795,0.21004850229269248,0.38095238095238093,24,6.34861421585083,0.7489483173076925,0.9106552600860596
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,How is engine performance affected by altitude?,Engine performance decreases with altitude due to reduced air density.,"Context: Engine performance decreases with altitude due to reduced air density.
+
+Question: How is engine performance affected by altitude?
+Answer: As altitude increases, air density decreases, leading to a reduction in engine performance",0,0.8692559,0.26765226160005684,0.4651162790697675,23,4.620518684387207,0.6048780487804878,0.9180524349212646
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What is the significance of the four forces of flight?,"The four forces of flight are lift, thrust, drag, and weight.","Context: The four forces of flight are lift, thrust, drag, and weight.
+
+Question: What is the significance of the four forces of flight?
+Answer: ",0,0.8544021,0.419793811546288,0.6285714285714286,13,5.3722639083862305,0.891621312907344,0.9340256452560425
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What are the factors affecting stall speed?,Stall speed increases with weight and load factor.,"Context: Stall speed increases with weight and load factor.
+
+Question: What are the factors affecting stall speed?
+Answer: The stall speed of an aircraft increases with its weight and the",0,0.761363,0.22481074167380632,0.4210526315789474,22,7.5953168869018555,0.7352941176470589,0.8923976421356201
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,How is stability maintained in flight?,Stability is maintained through the aircraft's aerodynamic design.,"Context: Stability is maintained through the aircraft's aerodynamic design.
+
+Question: How is stability maintained in flight?
+Answer: Stability in flight is achieved through the careful design of the aircraft",0,0.9082022,0.23299898819244838,0.4615384615384615,21,8.073881149291992,0.625,0.9084615707397461
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What is the purpose of trim tabs on the aircraft?,Trim tabs help reduce the pilot's control forces.,"Context: Trim tabs help reduce the pilot's control forces.
+
+Question: What is the purpose of trim tabs on the aircraft?
+Answer: To reduce the control forces required by the pilot to maintain a",0,0.8741741,0.2033717397090786,0.4186046511627907,25,14.241597175598145,0.5066964285714286,0.9026690125465393
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,How does weight distribution affect takeoff performance?,Weight distribution affects the aircraft's center of gravity.,"Context: Weight distribution affects the aircraft's center of gravity.
+
+Question: How does weight distribution affect takeoff performance?
+Answer: Proper weight distribution is crucial for maintaining the aircraft’s center of",0,0.7570051,0.23299898819244838,0.45000000000000007,21,5.6445207595825195,0.625,0.9018946290016174
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What are the safety measures for preventing spatial disorientation?,Spatial disorientation is prevented through proper training and instruments.,"Context: Spatial disorientation is prevented through proper training and instruments.
+
+Question: What are the safety measures for preventing spatial disorientation?
+Answer: Proper training and the use of instruments are safety measures to prevent spatial",0,0.83101404,0.2283070457730447,0.4186046511627907,25,8.003190040588379,0.7482555018786903,0.9082791209220886
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What is the standard approach procedure for landing?,The standard approach involves a stabilized descent and alignment.,"Context: The standard approach involves a stabilized descent and alignment.
+
+Question: What is the standard approach procedure for landing?
+Answer: [your answer]",0,0.7545022,0.36227557436010244,0.5806451612903226,13,24.61768913269043,0.868991969315594,0.9098714590072632
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,How does the handbook describe adverse yaw?,Adverse yaw is caused by differential drag during turns.,"Context: Adverse yaw is caused by differential drag during turns.
+
+Question: How does the handbook describe adverse yaw?
+Answer: The handbook describes adverse yaw as the tendency of an aircraft to yaw",0,0.8097472,0.24329753873713073,0.43902439024390244,23,9.558271408081055,0.7817109144542774,0.9082903861999512
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What are the recommended weather minima for VFR flights?,"VFR flights require a minimum ceiling of 1,000 feet.","Context: VFR flights require a minimum ceiling of 1,000 feet.
+
+Question: What are the recommended weather minima for VFR flights?
+Answer: The recommended weather minimums for Visual Flight Rules (VFR)",0,0.66581047,0.2603965252496297,0.4878048780487805,21,6.547264099121094,0.8063619174730284,0.901342511177063
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,What is the significance of ground effect during takeoff and landing?,Ground effect reduces induced drag near the ground.,"Context: Ground effect reduces induced drag near the ground.
+
+Question: What is the significance of ground effect during takeoff and landing?
+Answer: During takeoff, ground effect can provide additional lift as the",0,0.74009466,0.21004850229269248,0.4,24,6.085920810699463,0.7211538461538463,0.8994902968406677
+microsoft/phi-4,Pilot’s Handbook of Aeronautical Knowledge,How is turbulence categorized in the handbook?,"Turbulence is categorized into light, moderate, and severe.","Context: Turbulence is categorized into light, moderate, and severe.
+
+Question: How is turbulence categorized in the handbook?
+Answer: In the handbook, turbulence is categorized based on intensity into three",0,0.7836088,0.23299898819244838,0.4324324324324324,21,7.096292495727539,0.7711943069306931,0.9071744680404663
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the eligibility requirements for obtaining a remote pilot certificate?,Applicants must be at least 16 years old and pass an FAA knowledge test.,"Context: Applicants must be at least 16 years old and pass an FAA knowledge test.
+
+Question: What are the eligibility requirements for obtaining a remote pilot certificate?
+Answer: ",0,0.70491225,0.47022156411316,0.6666666666666666,14,7.868443489074707,0.9089252584150543,0.9232514500617981
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What is the role of the FAA in regulating small unmanned aircraft systems (sUAS)?,The FAA regulates sUAS operations to ensure airspace safety.,"Context: The FAA regulates sUAS operations to ensure airspace safety.
+
+Question: What is the role of the FAA in regulating small unmanned aircraft systems (sUAS)?
+Answer: 
+
+Solution 1:
+The Federal Aviation Administration (FAA)",0,0.7698579,0.2355638968135057,0.42857142857142855,24,4.520517826080322,0.7748538011695906,0.8999351859092712
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the limitations for sUAS operations under Part 107?,Operations must remain within 400 feet of the ground and during daylight hours.,"Context: Operations must remain within 400 feet of the ground and during daylight hours.
+
+Question: What are the limitations for sUAS operations under Part 107?
+Answer: The limitations for small Unmanned Aircraft Systems (sUAS) operations under 14 CFR",0,0.64643687,0.3137186622440285,0.5098039215686275,25,6.437427520751953,0.8264936056499332,0.8933163285255432
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,How is controlled airspace defined for sUAS operations?,"Controlled airspace includes Class B, C, D, and certain parts of Class E.","Context: Controlled airspace includes Class B, C, D, and certain parts of Class E.
+
+Question: How is controlled airspace defined for sUAS operations?
+Answer: 
+Controlled airspace is airspace of defined dimensions within which air traffic control service is provided to I",0,0.6591033,0.2898720273466421,0.48148148148148145,28,6.189925670623779,0.7993783237210695,0.9007681608200073
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the weather requirements for operating a small unmanned aircraft?,Weather must include visibility of 3 miles and cloud clearance of 500 feet.,"Context: Weather must include visibility of 3 miles and cloud clearance of 500 feet.
+
+Question: What are the weather requirements for operating a small unmanned aircraft?
+Answer: According to the 14 CFR Part 107, the weather conditions must include at least 3",0,0.7379104,0.2827091628046978,0.4727272727272727,29,8.662805557250977,0.7943507870938931,0.9046397805213928
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What is the maximum allowable altitude for sUAS operations?,Maximum altitude is 400 feet above ground level unless within 400 feet of a structure.,"Context: Maximum altitude is 400 feet above ground level unless within 400 feet of a structure.
+
+Question: What is the maximum allowable altitude for sUAS operations?
+Answer: The maximum altitude for small Unmanned Aircraft Systems (sUAS) operations is generally set at 400",0,0.74850065,0.3323123922980402,0.5263157894736842,27,5.348306655883789,0.8203389830508474,0.894168496131897
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the requirements for visual line of sight during sUAS operations?,Remote pilots must maintain visual contact with the sUAS at all times.,"Context: Remote pilots must maintain visual contact with the sUAS at all times.
+
+Question: What are the requirements for visual line of sight during sUAS operations?
+Answer: ",0,0.71502906,0.40980949787910764,0.6153846153846153,15,7.564513683319092,0.8333333333333334,0.9297835826873779
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,How are remote pilots expected to handle emergency situations?,Emergencies must be handled to prioritize safety and reported to the FAA.,"Context: Emergencies must be handled to prioritize safety and reported to the FAA.
+
+Question: How are remote pilots expected to handle emergency situations?
+Answer: In the event of an emergency, remote pilots are expected to prioritize the safety of people and",0,0.73009217,0.26441196108278087,0.45283018867924524,29,9.530655860900879,0.635486577181208,0.9160141944885254
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the key components of a preflight inspection for sUAS?,"Preflight checks include inspecting batteries, propellers, and the flight control system.","Context: Preflight checks include inspecting batteries, propellers, and the flight control system.
+
+Question: What are the key components of a preflight inspection for sUAS?
+Answer: The key components include checking the batteries for charge and damage, inspecting the prop",0,0.7865278,0.2516768028374534,0.44000000000000006,28,6.751572608947754,0.6437896754102288,0.9104385375976562
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What is the process for reporting sUAS accidents to the FAA?,Accidents must be reported within 10 days if they result in serious injury or property damage.,"Context: Accidents must be reported within 10 days if they result in serious injury or property damage.
+
+Question: What is the process for reporting sUAS accidents to the FAA?
+Answer: To report a small Unmanned Aircraft System (sUAS) accident to the Federal Aviation Administration (FAA),",0,0.597065,0.3324489176516081,0.5245901639344263,29,4.7724809646606445,0.8457341269841271,0.9071974754333496
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the roles and responsibilities of the remote pilot in command (RPIC)?,The RPIC is responsible for the safe operation of the sUAS.,"Context: The RPIC is responsible for the safe operation of the sUAS.
+
+Question: What are the roles and responsibilities of the remote pilot in command (RPIC)?
+Answer: ",0,0.6761421,0.3703046833819061,0.5789473684210525,16,12.403727531433105,0.8021776203594386,0.9138206243515015
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What is the significance of NOTAMs for sUAS operations?,NOTAMs provide crucial information about airspace restrictions.,"Context: NOTAMs provide crucial information about airspace restrictions.
+
+Question: What is the significance of NOTAMs for sUAS operations?
+Answer: 
+NOTAMs, or Notices to Airm",0,0.7588463,0.23956565612760206,0.45161290322580644,17,7.290439605712891,0.7952146375791698,0.8915405869483948
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the battery maintenance guidelines for small unmanned aircraft?,Batteries must be stored and charged according to the manufacturer’s instructions.,"Context: Batteries must be stored and charged according to the manufacturer’s instructions.
+
+Question: What are the battery maintenance guidelines for small unmanned aircraft?
+Answer: ",0,0.5678889,0.419793811546288,0.6486486486486487,13,14.845770835876465,0.8852381912248876,0.9271842241287231
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,How does the guide define operations over people?,Operations over people require compliance with strict safety measures.,"Context: Operations over people require compliance with strict safety measures.
+
+Question: How does the guide define operations over people?
+Answer: The guide defines ""operations over people"" as any activity that involves",0,0.67141426,0.2515565919019027,0.45000000000000007,22,19.07206153869629,0.7886904761904764,0.8812482357025146
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the specific requirements for night operations under Part 107?,Night operations require anti-collision lighting visible for 3 miles.,"Context: Night operations require anti-collision lighting visible for 3 miles.
+
+Question: What are the specific requirements for night operations under Part 107?
+Answer: For night operations, a remote pilot must ensure the drone is equipped",0,0.77401555,0.22148418795159994,0.4347826086956522,26,9.23509693145752,0.7093444018731375,0.9110342860221863
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,"How is airspace authorization obtained for operations in Class B, C, D, or E airspace?",Airspace authorization is obtained through the FAA's LAANC system.,"Context: Airspace authorization is obtained through the FAA's LAANC system.
+
+Question: How is airspace authorization obtained for operations in Class B, C, D, or E airspace?
+Answer: ",0,0.78999066,0.29108736587772466,0.5263157894736842,18,7.926840782165527,0.796753543667124,0.9119564294815063
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What is the role of aeronautical charts in planning sUAS operations?,Aeronautical charts help identify airspace classes and restrictions.,"Context: Aeronautical charts help identify airspace classes and restrictions.
+
+Question: What is the role of aeronautical charts in planning sUAS operations?
+Answer: They provide information on airspace classification, restricted areas, and other",0,0.7973174,0.21004850229269248,0.4,24,7.9653425216674805,0.606971153846154,0.885959804058075
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the requirements for recurrent testing for remote pilots?,Recurrent testing is required every 24 months.,"Context: Recurrent testing is required every 24 months.
+
+Question: What are the requirements for recurrent testing for remote pilots?
+Answer: According to 14 CFR § 107.41",0,0.7751889,0.21996658526329096,0.42424242424242425,19,11.945584297180176,0.7773446457234578,0.8928086757659912
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What is the significance of the small unmanned aircraft registration system?,All sUAS must be registered if they weigh more than 0.55 pounds.,"Context: All sUAS must be registered if they weigh more than 0.55 pounds.
+
+Question: What is the significance of the small unmanned aircraft registration system?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>   
+  <FinalAnswer",0,0.64908266,0.31181814978096556,0.5306122448979591,23,5.311399459838867,0.8389180264180264,0.8832184672355652
+microsoft/phi-4,Remote Pilot Small Unmanned Aircraft Systems Study Guide,What are the rules for operating sUAS over moving vehicles?,Operations over moving vehicles are prohibited unless the vehicle is in a restricted area.,"Context: Operations over moving vehicles are prohibited unless the vehicle is in a restricted area.
+
+Question: What are the rules for operating sUAS over moving vehicles?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>   
+  <FinalAnswer>  
+   ",0,0.78566945,0.36105260209445084,0.56,22,7.06245756149292,0.8101851851851851,0.8690558075904846
+microsoft/phi-4,Risk Management Handbook,What is the purpose of the Risk Management Handbook?,The handbook provides guidelines for identifying and mitigating aviation risks.,"Context: The handbook provides guidelines for identifying and mitigating aviation risks.
+
+Question: What is the purpose of the Risk Management Handbook?
+Answer: ",0,0.78354406,0.4116245235860851,0.625,12,12.5490140914917,0.8892857142857143,0.9320434927940369
+microsoft/phi-4,Risk Management Handbook,What is the risk management process described in the handbook?,"The risk management process involves identifying, analyzing, and mitigating risks.","Context: The risk management process involves identifying, analyzing, and mitigating risks.
+
+Question: What is the risk management process described in the handbook?
+Answer: ",0,0.85309285,0.39242591746953154,0.6060606060606061,13,9.143447875976562,0.8730088495575221,0.926728367805481
+microsoft/phi-4,Risk Management Handbook,How does the handbook define 'hazard' in aviation?,A hazard is any condition that could lead to an accident.,"Context: A hazard is any condition that could lead to an accident.
+
+Question: How does the handbook define 'hazard' in aviation?
+Answer: In aviation, a hazard is defined as any condition with the potential to cause an",0,0.78212035,0.26586948776711355,0.4583333333333333,26,6.2962422370910645,0.7431939718035975,0.9068726301193237
+microsoft/phi-4,Risk Management Handbook,What are the five steps in the risk management decision-making process?,"The steps include identifying hazards, assessing risks, and implementing controls.","Context: The steps include identifying hazards, assessing risks, and implementing controls.
+
+Question: What are the five steps in the risk management decision-making process?
+Answer: Identify hazards, assess risks, implement controls, monitor and review, and communicate",0,0.806381,0.2516546237169354,0.4347826086956522,25,5.194321632385254,0.5952000000000001,0.9072452187538147
+microsoft/phi-4,Risk Management Handbook,How are risk assessments conducted for flight operations?,Risk assessments are conducted using qualitative and quantitative methods.,"Context: Risk assessments are conducted using qualitative and quantitative methods.
+
+Question: How are risk assessments conducted for flight operations?
+Answer: <|\end|>
+
+Solution 1:
+Risk assessments for flight",0,0.79034305,0.29108736587772466,0.5,18,8.13244915008545,0.796753543667124,0.8772885203361511
+microsoft/phi-4,Risk Management Handbook,"What is the PAVE checklist, and how is it used in risk management?","The PAVE checklist stands for Pilot, Aircraft, Environment, and External Pressures.","Context: The PAVE checklist stands for Pilot, Aircraft, Environment, and External Pressures.
+
+Question: What is the PAVE checklist, and how is it used in risk management?
+Answer: ",0,0.86884177,0.3703046833819061,0.5789473684210525,16,6.669970512390137,0.8520267611176703,0.9303508400917053
+microsoft/phi-4,Risk Management Handbook,"What is the 5P model, and how does it apply to aviation safety?","The 5P model includes Plan, Plane, Pilot, Passengers, and Programming.","Context: The 5P model includes Plan, Plane, Pilot, Passengers, and Programming.
+
+Question: What is the 5P model, and how does it apply to aviation safety?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>   
+ ",0,0.81355554,0.2594068869083152,0.45454545454545453,24,5.364858627319336,0.7560483870967742,0.9104312658309937
+microsoft/phi-4,Risk Management Handbook,What are the key elements of situational awareness in risk management?,Situational awareness involves understanding the environment and predicting outcomes.,"Context: Situational awareness involves understanding the environment and predicting outcomes.
+
+Question: What are the key elements of situational awareness in risk management?
+Answer: The key elements include perception of environmental elements, comprehension of their meaning",0,0.76965,0.22148418795159994,0.40909090909090906,26,4.763331413269043,0.7418050234142188,0.8931292295455933
+microsoft/phi-4,Risk Management Handbook,How does the handbook address human factors in aviation safety?,"Human factors include fatigue, stress, and decision-making errors.","Context: Human factors include fatigue, stress, and decision-making errors.
+
+Question: How does the handbook address human factors in aviation safety?
+Answer: The handbook addresses human factors by discussing the impact of fatigue,",0,0.6502219,0.21004850229269248,0.42857142857142855,24,6.870917320251465,0.7211538461538463,0.909590482711792
+microsoft/phi-4,Risk Management Handbook,"What is the IMSAFE checklist, and how is it used by pilots?","The IMSAFE checklist evaluates Illness, Medication, Stress, Alcohol, Fatigue, and Emotion.","Context: The IMSAFE checklist evaluates Illness, Medication, Stress, Alcohol, Fatigue, and Emotion.
+
+Question: What is the IMSAFE checklist, and how is it used by pilots?
+Answer: ",0,0.87194824,0.3854501214118698,0.5945945945945945,15,5.224218368530273,0.8588429752066117,0.9383995532989502
+microsoft/phi-4,Risk Management Handbook,What are the guidelines for identifying and mitigating risks in flight planning?,"Risk identification involves analyzing weather, aircraft performance, and route conditions.","Context: Risk identification involves analyzing weather, aircraft performance, and route conditions.
+
+Question: What are the guidelines for identifying and mitigating risks in flight planning?
+Answer: ",0,0.8376671,0.3589485409071449,0.5714285714285715,15,18.56173324584961,0.8578260869565217,0.9207031726837158
+microsoft/phi-4,Risk Management Handbook,How is risk tolerance defined in the handbook?,Risk tolerance is the level of risk deemed acceptable for a specific operation.,"Context: Risk tolerance is the level of risk deemed acceptable for a specific operation.
+
+Question: How is risk tolerance defined in the handbook?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>   
+  <FinalAnswer>",0,0.82164526,0.3635738207738405,0.5652173913043478,20,7.249980449676514,0.7990138067061144,0.8855592012405396
+microsoft/phi-4,Risk Management Handbook,What are the tools recommended for ongoing risk monitoring during flight?,"Monitoring tools include checklists, instruments, and pilot reports.","Context: Monitoring tools include checklists, instruments, and pilot reports.
+
+Question: What are the tools recommended for ongoing risk monitoring during flight?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration",0,0.7278992,0.22481074167380632,0.4210526315789474,22,12.603227615356445,0.7636335784313727,0.8978251218795776
+microsoft/phi-4,Risk Management Handbook,How does the handbook define acceptable levels of risk?,Acceptable risk levels are those that maintain safety and operational goals.,"Context: Acceptable risk levels are those that maintain safety and operational goals.
+
+Question: How does the handbook define acceptable levels of risk?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>   
+  <",0,0.84004444,0.30950920105373303,0.5238095238095238,21,7.505953788757324,0.8195066557314997,0.88182532787323
+microsoft/phi-4,Risk Management Handbook,What are the decision-making models described in the handbook?,Models include the DECIDE model and the 3P model.,"Context: Models include the DECIDE model and the 3P model.
+
+Question: What are the decision-making models described in the handbook?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>",0,0.8150524,0.2698809072033866,0.4615384615384615,20,7.930532455444336,0.696969696969697,0.8974267840385437
+microsoft/phi-4,Risk Management Handbook,What is the significance of aeronautical decision-making (ADM) in risk management?,ADM involves systematic decision-making to enhance safety.,"Context: ADM involves systematic decision-making to enhance safety.
+
+Question: What is the significance of aeronautical decision-making (ADM) in risk management?
+Answer: Aeronautical Decision-Making, or ADM,",0,0.7314696,0.22934769499188126,0.4444444444444445,18,10.078089714050293,0.7641465677179963,0.9013243913650513
+microsoft/phi-4,Risk Management Handbook,What are the strategies for managing in-flight emergencies?,Strategies include prioritizing tasks and maintaining communication.,"Context: Strategies include prioritizing tasks and maintaining communication.
+
+Question: What are the strategies for managing in-flight emergencies?
+Answer: Prioritizing tasks, maintaining clear communication, and",0,0.68201756,0.23956565612760206,0.43750000000000006,17,12.792750358581543,0.4022988505747127,0.8989976048469543
+microsoft/phi-4,Risk Management Handbook,How does the handbook address weather-related risks?,"Weather risks involve turbulence, visibility, and wind conditions.","Context: Weather risks involve turbulence, visibility, and wind conditions.
+
+Question: How does the handbook address weather-related risks?
+Answer: ",0,0.8202498,0.38890556115271097,0.5925925925925926,10,35.74393081665039,0.8880208333333334,0.9197601675987244
+microsoft/phi-4,Risk Management Handbook,What is the role of post-flight debriefing in risk management?,Debriefing identifies lessons learned and areas for improvement.,"Context: Debriefing identifies lessons learned and areas for improvement.
+
+Question: What is the role of post-flight debriefing in risk management?
+Answer: It helps identify what went well and what could be improved,",0,0.7146722,0.21004850229269248,0.3902439024390244,24,7.607804298400879,0.7211538461538463,0.8982229828834534
+microsoft/phi-4,Risk Management Handbook,How does the handbook recommend incorporating technology into risk management?,"Technology includes automation, GPS, and weather forecasting tools.","Context: Technology includes automation, GPS, and weather forecasting tools.
+
+Question: How does the handbook recommend incorporating technology into risk management?
+Answer: ",0,0.5379417,0.3288580454955831,0.5517241379310345,13,28.947856903076172,0.853494623655914,0.9170259833335876
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What are the standard takeoff minimums for commercial operators?,Standard minimums include 1 mile visibility for single-engine aircraft.,"Context: Standard minimums include 1 mile visibility for single-engine aircraft.
+
+Question: What are the standard takeoff minimums for commercial operators?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration>",0,0.72441113,0.2698809072033866,0.5,20,9.599292755126953,0.7480359147025815,0.8983572721481323
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,How are obstacle departure procedures defined?,ODPs provide instructions for safe departure considering terrain and obstacles.,"Context: ODPs provide instructions for safe departure considering terrain and obstacles.
+
+Question: How are obstacle departure procedures defined?
+Answer: Obstacle departure procedures (ODPs) are defined as a series of predetermined",0,0.8104362,0.29586757494947247,0.5,20,14.287165641784668,0.8220833333333334,0.9019620418548584
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What are the visibility requirements for takeoff under IFR conditions?,IFR takeoff requires a minimum of 1/2 mile visibility.,"Context: IFR takeoff requires a minimum of 1/2 mile visibility.
+
+Question: What are the visibility requirements for takeoff under IFR conditions?
+Answer: Under Instrument Flight Rules (IFR), the minimum visibility requirement for",0,0.81279236,0.24329753873713073,0.4651162790697675,23,5.731873035430908,0.7281765541352564,0.9034197330474854
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What is the purpose of a Diverse Vector Area (DVA)?,DVAs ensure safe vectoring by ATC in areas with no published procedures.,"Context: DVAs ensure safe vectoring by ATC in areas with no published procedures.
+
+Question: What is the purpose of a Diverse Vector Area (DVA)?
+Answer: ",0,0.7098786,0.44476301781818156,0.6486486486486487,13,20.203840255737305,0.9019945697577276,0.9242161512374878
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,How are non-standard takeoff minimums communicated to pilots?,Non-standard minimums are listed in terminal procedure publications.,"Context: Non-standard minimums are listed in terminal procedure publications.
+
+Question: How are non-standard takeoff minimums communicated to pilots?
+Answer: They are published in the terminal procedures publication for the specific airport",0,0.76798195,0.2171788734284664,0.42857142857142855,23,12.114434242248535,0.5165351941747572,0.8841980695724487
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What is the role of climb gradients in departure planning?,Climb gradients ensure obstacle clearance during initial climb.,"Context: Climb gradients ensure obstacle clearance during initial climb.
+
+Question: What is the role of climb gradients in departure planning?
+Answer: In departure planning, climb gradients are crucial as they ensure that",0,0.7938019,0.21004850229269248,0.4,24,11.254717826843262,0.7489483173076925,0.9030110239982605
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What is the significance of runway lighting systems for IFR departures?,Lighting systems include approach lights and runway edge lights.,"Context: Lighting systems include approach lights and runway edge lights.
+
+Question: What is the significance of runway lighting systems for IFR departures?
+Answer: Runway lighting systems are crucial for Instrument Flight Rules (IFR",0,0.66264594,0.2355638968135057,0.42857142857142855,24,8.689352989196777,0.7548191466320121,0.909512460231781
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,How does the handbook address takeoff in low visibility conditions?,Low visibility takeoff uses RVR readings and specific lighting systems.,"Context: Low visibility takeoff uses RVR readings and specific lighting systems.
+
+Question: How does the handbook address takeoff in low visibility conditions?
+Answer: For low visibility takeoffs, the handbook specifies the use of Runway Visual",0,0.81826735,0.2516546237169354,0.4444444444444445,25,12.572601318359375,0.7892000000000001,0.9061810970306396
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What are the criteria for designating a takeoff alternate airport?,A takeoff alternate is required when departure airport weather is below minimums.,"Context: A takeoff alternate is required when departure airport weather is below minimums.
+
+Question: What are the criteria for designating a takeoff alternate airport?
+Answer: According to 14 CFR 91.169, the criteria include:
+1. The alternate",0,0.82721746,0.30277029197532096,0.489795918367347,24,6.536080360412598,0.8268229166666667,0.9048054814338684
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What is the purpose of the Obstacle Identification Surface (OIS)?,OIS defines the obstacle-free airspace during departure.,"Context: OIS defines the obstacle-free airspace during departure.
+
+Question: What is the purpose of the Obstacle Identification Surface (OIS)?
+Answer: ",0,0.7695112,0.2915369229944523,0.5517241379310345,13,26.95577621459961,0.8101794934841406,0.899057924747467
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,How are diverse departure procedures implemented at airports?,Diverse procedures allow departures in all directions if no obstacles exist.,"Context: Diverse procedures allow departures in all directions if no obstacles exist.
+
+Question: How are diverse departure procedures implemented at airports?
+Answer: Departure procedures at airports are designed to manage the flow of aircraft during takeoff",0,0.7373388,0.2735838424624378,0.46808510638297873,25,17.384336471557617,0.8065503520048974,0.9104213118553162
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What are the minimum climb gradients for obstacle clearance?,Minimum gradients are specified in feet per nautical mile.,"Context: Minimum gradients are specified in feet per nautical mile.
+
+Question: What are the minimum climb gradients for obstacle clearance?
+Answer: According to the FAA regulations, the standard minimum climb gradient for obstacle",0,0.71099174,0.2355638968135057,0.42857142857142855,24,12.130694389343262,0.7548191466320121,0.8987764120101929
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What are the requirements for pilots when using visual climb over airport (VCOA)?,VCOA requires pilots to maintain visibility and specific altitudes.,"Context: VCOA requires pilots to maintain visibility and specific altitudes.
+
+Question: What are the requirements for pilots when using visual climb over airport (VCOA)?
+Answer: ",0,0.79331875,0.3159148237572417,0.5294117647058824,16,16.625131607055664,0.8333333333333334,0.9052597880363464
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,How are departure procedures published in airport charts?,Departure procedures are published in the airport's approach charts.,"Context: Departure procedures are published in the airport's approach charts.
+
+Question: How are departure procedures published in airport charts?
+Answer: Airport approach charts include published departure procedures. These procedures provide pilots with",0,0.87629026,0.24329753873713073,0.4651162790697675,23,9.951637268066406,0.5167704577734078,0.9012517929077148
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What is the process for obtaining clearance for a non-standard departure?,Non-standard clearances are coordinated with ATC.,"Context: Non-standard clearances are coordinated with ATC.
+
+Question: What is the process for obtaining clearance for a non-standard departure?
+Answer: For non-standard departures, pilots must coordinate",0,0.72092617,0.17797644045771208,0.3888888888888889,20,9.746562004089355,0.7361111111111112,0.8859592080116272
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What are the procedures for handling engine failure during takeoff?,Engine-out procedures involve returning to the airport or a safe landing area.,"Context: Engine-out procedures involve returning to the airport or a safe landing area.
+
+Question: What are the procedures for handling engine failure during takeoff?
+Answer: During takeoff, if an engine fails, the pilot should maintain directional control with rudder",0,0.7073796,0.27852616730819235,0.4905660377358491,27,7.91738748550415,0.7868008314436886,0.9098904132843018
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What is the importance of NOTAMs in takeoff planning?,NOTAMs provide updates on changes to departure procedures.,"Context: NOTAMs provide updates on changes to departure procedures.
+
+Question: What is the importance of NOTAMs in takeoff planning?
+Answer: 
+Please adhere to the following output format:
+<AnswerGeneration",0,0.7065604,0.2418068126014414,0.4444444444444445,20,7.439974308013916,0.75,0.8820844292640686
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What are the minimum weather requirements for takeoff at uncontrolled airports?,Minimums at uncontrolled airports depend on terrain and local regulations.,"Context: Minimums at uncontrolled airports depend on terrain and local regulations.
+
+Question: What are the minimum weather requirements for takeoff at uncontrolled airports?
+Answer: [your answer]",0,0.7119032,0.34426631072695274,0.5555555555555556,16,13.14319896697998,0.8504310344827586,0.9040416479110718
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,What is the role of TERPS in defining obstacle clearance?,TERPS define obstacle clearance standards for instrument procedures.,"Context: TERPS define obstacle clearance standards for instrument procedures.
+
+Question: What is the role of TERPS in defining obstacle clearance?
+Answer: The Terminal Instrument Procedures (TERPS) are a set of",0,0.8649616,0.22481074167380632,0.4210526315789474,22,8.917634010314941,0.618872549019608,0.8912520408630371
+microsoft/phi-4,TAKEOFF MINIMUMS (OBSTACLE) DEPARTURE PROCEDURES,How are mountainous terrain departures managed?,Mountainous departures involve increased climb gradients and route planning.,"Context: Mountainous departures involve increased climb gradients and route planning.
+
+Question: How are mountainous terrain departures managed?
+Answer: Departures from airports in mountainous areas require careful planning to ensure",0,0.83151287,0.2698809072033866,0.4736842105263158,20,18.224945068359375,0.8030303030303031,0.8924142718315125
