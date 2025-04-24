@@ -1,7 +1,7 @@
 # **ATC_LLM**
 
-# **Gen-Twin ATC: Synthetic ATC Communications with LLMs**
-
+# **Gen-Twin ATC: LLM FineTuning for Air Traffic Control /Synthetic ATC Communications Generation*
+*
 ## **Overview**
 
 This repository is part of the Boeing Gen-Twin ATC research initiative, focused on simulating realistic air traffic control (ATC) communications and evaluating large language models (LLMs) fine-tuned on aviation documentation. 
