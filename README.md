@@ -2,6 +2,15 @@
 
 # **Gen-Twin ATC: LLM FineTuning for Air Traffic Control /Synthetic ATC Communications Generation*
 *
+
+
+## 🔧 Proposed System Architecture
+
+The following diagram shows the core architecture of our Digital Twin–guided LLM fine-tuning pipeline:
+
+![GEN_ATC LLM FineTuning Pipeline](GEN_ATC LLM FineTuning Pipeline.png)
+
+
 ## **Overview**
 
 This repository is part of the Boeing Gen-Twin ATC research initiative, focused on simulating realistic air traffic control (ATC) communications and evaluating large language models (LLMs) fine-tuned on aviation documentation. 
