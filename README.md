@@ -8,7 +8,8 @@
 
 The following diagram shows the core architecture of our Digital Twin–guided LLM fine-tuning pipeline:
 
-![GEN_ATC LLM FineTuning Pipeline](GEN_ATC LLM FineTuning Pipeline.png)
+
+![GenATC LLM FineTuning Pipeline](GEN_ATC%20LLM%20FineTuning%20Pipeline.png)
 
 
 ## **Overview**
