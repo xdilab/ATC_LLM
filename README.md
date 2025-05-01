@@ -205,7 +205,8 @@ Output:
 CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthetic_conversation_metrics.csv
 
 4. Pilot-Initiated Synthetic Dialogue Evaluation
-5. 
+
+
 Script: Generate_Com_Phi_4_PILOT_Initiated.py
 
 Purpose:
