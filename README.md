@@ -185,7 +185,8 @@ pip install -r requirements.txt
 Each script focuses on a distinct part of the LLM fine-tuning or synthetic communication evaluation pipeline:
 
 **1. Fine-Tune and Evaluate on QA Pairs (Before Fine-Tuning)**
-Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
+
+Model Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
 
 Purpose:
 Runs baseline QA evaluations using the Phi-4 model before domain-specific fine-tuning.
