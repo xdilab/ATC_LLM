@@ -256,8 +256,7 @@ CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthe
 
 **4. Pilot-Initiated Synthetic Dialogue Evaluation**
 
-
-Script: Generate_Com_Phi_4_PILOT_Initiated.py
+Model Script: Generate_Com_Phi_4_PILOT_Initiated.py
 
 Purpose:
 Specifically tests Phi-4 on pilot-initiated prompts to generate ATC responses and measure realism.
