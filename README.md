@@ -192,7 +192,15 @@ Saves results to model-specific CSV
 Script: Generate_SyntheticCom_Phi_main.py
 
 Purpose:
-Generates ATC-style responses using a set of templated tags like <FH>, <RWY>, <TF>. Evaluates realism with:
+Generates ATC-style responses using a set of templated tags like "<FH>, <RWY>, <TF>"
+
+Synthetic ATC Communication:
+
+Pilot Prompt: Greensboro Tower, N466C7, ILS 23L, 8 miles out.
+ATC LLM Response: N466C7, wind 230 at 10, Runway 23L cleared to land.
+
+
+Evaluates realism with:
 
 BLEU
 
@@ -243,13 +251,6 @@ Additional Notes:
 All models are loaded via transformers from Hugging Face
 
 Ensure GPU with bfloat16 or fp16 support is available for best performance
-
-
-
-Synthetic ATC Communication:
-
-Prompt: Greensboro Tower, N466C7, ILS 23L, 8 miles out.
-Response: N466C7, wind 230 at 10, Runway 23L cleared to land.
 
 
 Research Impact:
