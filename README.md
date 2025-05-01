@@ -192,9 +192,9 @@ Saves results to model-specific CSV
 Script: Generate_SyntheticCom_Phi_main.py
 
 Purpose:
-Generates ATC-style responses using a set of templated tags like "<FH>, <RWY>, <TF>"
+Generates ATC-style responses using a set of templated tags like: `<FH>, <RWY>, <TF>`
 
-Synthetic ATC Communication:
+Eg:
 
 Pilot Prompt: Greensboro Tower, N466C7, ILS 23L, 8 miles out.
 ATC LLM Response: N466C7, wind 230 at 10, Runway 23L cleared to land.
