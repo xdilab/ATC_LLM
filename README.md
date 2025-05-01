@@ -1,4 +1,4 @@
-# **Gen-Twin ATC: LLM FineTuning for Air Traffic Control /Synthetic ATC Communications Generation**
+# **Gen-Twin ATC: LLM FineTuning for Air Traffic Control & Synthetic ATC Communications Generation**
 
 ## Proposed System Architecture
 
