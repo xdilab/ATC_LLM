@@ -1,6 +1,6 @@
 # **Gen-Twin ATC: LLM FineTuning for Air Traffic Control & Synthetic ATC Communications Generation**
 
-## Proposed System Architecture
+## **Proposed System Architecture**
 
 The following diagram shows the core architecture of our Digital Twin–guided LLM fine-tuning pipeline:
 
@@ -16,7 +16,7 @@ Our goal is to improve airspace safety and efficiency by generating, fine-tuning
 
 ---
 
-Project Goals
+**Project Goals**
 
 - Simulate realistic **pilot–controller communications** using structured templates and placeholder tags.
 - Fine-tune and evaluate the `microsoft/phi-4`, `meta/Llama 3.1 8B`, `deepseek-ai/DeepSeek 7B`,`google/Gemma 7B` model on FAA documents and ATC SOPs.
@@ -65,7 +65,7 @@ Document	                      Manual Acc	Cosine	BLEU	ROUGE-L	Edit Dist	Perplexi
 IFR Alternate Airport Minimums	0.85	      0.91	  0.42	0.68	   3.1	     4.21      90.01
 
 
-*All documents used for training and evaluation are publicly available through FAA and airport planning sources.*
+***All documents used for training and evaluation are publicly available through FAA and airport planning sources.***
 
 
 ---
@@ -75,6 +75,7 @@ Sythetic Communication Generation
 Tags & Synthetic Template Types
 
 **Structured tags used in 100 synthetic communications**:
+
 - `<FH>`: Flight callsign
 - `<ALT>`, `<NEW_ALT>`: Altitudes
 - `<RWY>`: Runways
@@ -102,16 +103,16 @@ Tags & Synthetic Template Types
 ---
 
 
-Synthetic ATC Generation (Sample)
-Prompt:
+**Synthetic ATC Generation (Sample)**
+Pilot Prompt:
 Greensboro Tower, N123AB, ILS 23L, 8 miles out.
 
-Model Response:
+ATC LLM Response:
 N123AB, wind 230 at 10, Runway 23L cleared to land.
 
 Metrics:
 
-Call Sign Accuracy: 0.99
+Call Sign Accuracy: 0.98
 
 CallWER: 0.01
 
@@ -152,7 +153,7 @@ Before running, ensure dependencies are installed:
 pip install -r requirements.txt
 Each script focuses on a distinct part of the LLM fine-tuning or synthetic communication evaluation pipeline:
 
-1. Fine-Tune and Evaluate on QA Pairs (Before Fine-Tuning)
+**1. Fine-Tune and Evaluate on QA Pairs (Before Fine-Tuning)**
 Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
 
 Purpose:
@@ -168,13 +169,15 @@ Cosine similarity, BLEU, ROUGE, edit distance, perplexity (pre-finetuning)
 CSV of evaluation metrics for all questions
 
 
-2. Fine-Tune and Evaluate QA Pairs — Post-Tuning (LLaMA 3.1 8B, Gemma 7B, DeepSeek 7B)
+**2. Fine-Tune and Evaluate QA Pairs — Post-Tuning (LLaMA 3.1 8B, Gemma 7B, DeepSeek 7B)**
 
 Model	Script
-LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
-Gemma 7B	GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
-DeepSeek 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py
-Run Example (LLaMA 3.1):
+- [x] LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+- [x] Gemma 7B	GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+- [x] DeepSeek 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py
+
+
+**Run Example (LLaMA 3.1):**
 
 python GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
 
@@ -187,7 +190,7 @@ Evaluates against post-tuning QA pairs
 Saves results to model-specific CSV
 
 
-3. Synthetic ATC Communication Generation
+**3. Synthetic ATC Communication Generation**
    
 Script: Generate_SyntheticCom_Phi_main.py
 
@@ -218,7 +221,8 @@ Output:
 
 CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthetic_conversation_metrics.csv
 
-4. Pilot-Initiated Synthetic Dialogue Evaluation
+
+**4. Pilot-Initiated Synthetic Dialogue Evaluation**
 
 
 Script: Generate_Com_Phi_4_PILOT_Initiated.py
@@ -246,21 +250,21 @@ Output Directory Structure (Recommended)
         phi4_synthetic_conversation_metrics_PilotInitiated.csv
 
 
-Additional Notes:
+**Additional Notes:**
 
 All models are loaded via transformers from Hugging Face
 
 Ensure GPU with bfloat16 or fp16 support is available for best performance
 
 
-Research Impact:
+**Research Impact:**
 
 This project enables digital twin environments to simulate realistic ATC communication scenarios using Generative AI. The ability to generate and evaluate ATC conversations facilitates improved training, safety assessments, and automation integration.
 
 
 
 
-Citation
+**Citation**
 If this repository or method supports your work, please cite:
 
 @inprogress{
@@ -268,7 +272,7 @@ If this repository or method supports your work, please cite:
 }
 
 
-Acknowledgements:
+**Acknowledgements:**
 
 Special thanks to:
 
@@ -280,7 +284,7 @@ OpenAI, Google, Meta, Microsoft, and Hugging Face for model access and tooling
 
 
 
-Contact
+**Contact**
 
 Stefan Green
 Ph.D. Researcher, Computer Science
