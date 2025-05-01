@@ -38,7 +38,7 @@ Our goal is to improve airspace safety and efficiency by generating, fine-tuning
     
 - **Synthetic ATC Communication Generation:**
   - Template-based prompts using aviation tags (e.g., `<FH>`, `<RWY>`, `<TF>`)
-  - Pilot-initiated messages → ATC response prediction
+  - Pilot-initiated messages → ATC LLM response prediction
   - Call sign recognition (ACC, WER) and NLP metric evaluation
   - Result logging to CSV for all QA evaluations and synthetic generations
 
