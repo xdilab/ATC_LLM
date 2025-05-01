@@ -1,4 +1,4 @@
-# **ATC_LLM**
+# **GEN_ATC_LLM**
 
 # **Gen-Twin ATC: LLM FineTuning for Air Traffic Control /Synthetic ATC Communications Generation*
 *
