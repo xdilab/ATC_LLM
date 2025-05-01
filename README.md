@@ -141,10 +141,101 @@ Used for call sign accuracy & semantic match evaluation
 
 ## **How to Run**
 
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
+Before running, ensure dependencies are installed:
 
+pip install -r requirements.txt
+Each script focuses on a distinct part of the LLM fine-tuning or synthetic communication evaluation pipeline:
+
+1. Fine-Tune and Evaluate on QA Pairs (Before Fine-Tuning)
+Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
+
+Purpose:
+Runs baseline QA evaluations using the Phi-4 model before domain-specific fine-tuning.
+
+Run:
+
+python GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
+Outputs:
+
+Cosine similarity, BLEU, ROUGE, edit distance, perplexity (pre-finetuning)
+
+CSV of evaluation metrics for all questions
+
+
+2. Fine-Tune and Evaluate QA Pairs — Post-Tuning (LLaMA 3.1 8B, Gemma 7B, DeepSeek 7B)
+
+Model	Script
+LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+Gemma 7B	GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+DeepSeek 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py
+Run Example (LLaMA 3.1):
+
+python GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+
+Each script:
+
+Loads model + tokenizer
+
+Evaluates against post-tuning QA pairs
+
+Saves results to model-specific CSV
+
+
+3. Synthetic ATC Communication Generation
+   
+Script: Generate_SyntheticCom_Phi_main.py
+
+Purpose:
+Generates ATC-style responses using a set of templated tags like <FH>, <RWY>, <TF>. Evaluates realism with:
+
+BLEU
+
+ROUGE-L
+
+Edit distance
+
+Perplexity
+
+Run:
+
+python Generate_SyntheticCom_Phi_main.py
+
+Output:
+
+CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthetic_conversation_metrics.csv
+
+4. Pilot-Initiated Synthetic Dialogue Evaluation
+5. 
+Script: Generate_Com_Phi_4_PILOT_Initiated.py
+
+Purpose:
+Specifically tests Phi-4 on pilot-initiated prompts to generate ATC responses and measure realism.
+
+Run:
+
+python Generate_Com_Phi_4_PILOT_Initiated.py
+
+Output:
+
+phi4_synthetic_conversation_metrics_PilotInitiated.csv
+
+Output Directory Structure (Recommended)
+
+/outputs
+    /qa_evaluation/
+        phi4_pre_ft_results.csv
+        llama3_post_ft_results.csv
+        ...
+    /synthetic_atc/
+        phi4_synthetic_conversation_metrics.csv
+        phi4_synthetic_conversation_metrics_PilotInitiated.csv
+
+
+Additional Notes:
+
+All models are loaded via transformers from Hugging Face
+
+Ensure GPU with bfloat16 or fp16 support is available for best performance
 
 
 
