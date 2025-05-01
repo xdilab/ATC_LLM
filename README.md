@@ -1,10 +1,6 @@
-# **GEN_ATC_LLM**
+# **Gen-Twin ATC: LLM FineTuning for Air Traffic Control /Synthetic ATC Communications Generation**
 
-# **Gen-Twin ATC: LLM FineTuning for Air Traffic Control /Synthetic ATC Communications Generation*
-*
-
-
-## 🔧 Proposed System Architecture
+## Proposed System Architecture
 
 The following diagram shows the core architecture of our Digital Twin–guided LLM fine-tuning pipeline:
 
