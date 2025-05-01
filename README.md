@@ -143,6 +143,37 @@ Used for call sign accuracy & semantic match evaluation
 
 ## **Repository Structure**
 
+ATC_LLM/
+│
+├── GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py               # Evaluate Phi-4 BEFORE fine-tuning on aviation QA
+├── GEN_ATC_LLM_Phi_QAPairs_POST_FT_MAXT_main.py         # Evaluate Phi-4 AFTER fine-tuning (max tokens)
+├── GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_PRE_FT_main.py  # QA evaluation on LLaMA-3.1-8B before fine-tuning
+├── GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py # Post fine-tuning LLaMA-3.1 evaluation
+├── GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py     # Evaluate fine-tuned Gemma 7B
+├── GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py    # Evaluate fine-tuned DeepSeek 7B
+│
+├── Generate_Com_Phi_4_PILOT_Initiated.py                # Synthetic comms: Pilot prompts → ATC generation (Phi-4)
+├── Generate_SyntheticCom_Phi_main.py                    # Template-based ATC generation and metric evaluation (Phi-4)
+│
+├── GEN_ATC LLM FineTuning Pipeline.png                  # System architecture diagram for pipeline integration
+├── README.md                                            # Project overview and instructions
+│
+├── qa_pairs_output_completeset.csv                      # Final set of domain-specific QA pairs used for evaluation
+├── phi4_predictions_log_VX2_QA.csv                      # Log of Phi-4 QA predictions
+├── phi4_synthetic_comm_results.csv                      # Result log: synthetic ATC generation (Phi-4)
+├── phi4_synthetic_comm_metrics_ACCV1.csv                # Metrics: call sign accuracy, WER, BLEU, ROUGE, etc.
+├── phi4_callsign_res.xlsx                               # Spreadsheet of call sign prediction evaluations
+│
+├── RAG model results/                                   # Subfolder: RAG-style evaluations before/after docs
+│   ├── ChatGPT_afterdocs.csv
+│   ├── ChatGPT_beforedocs.csv
+│   ├── Gemini_afterdocs.csv
+│   └── Gemini_beforedocs.csv
+│
+├── 9 Main QA Training Documents/                        # Folder: PDFs and documents used to generate QA pairs
+│   ├── FAA, AIM, SOPs, Risk Mgt, sUAS Guide, Takeoff Min, etc.
+│   └── GENATC_LLM_Training_Documentation_drivelink.txt   # Public link reference (if files are too large for GitHub)
+
 
 ---
 
