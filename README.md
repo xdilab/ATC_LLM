@@ -260,9 +260,17 @@ A CSV file summarizing QA performance for all questions
 
 **Model	Script**
 
-**LLaMA 3.1 8B -	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py**
-**Gemma 7B - GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py**
-**DeepSeek - 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py**
+**LLaMA 3.1 8B**
+
+- GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+
+**Gemma 7B**
+
+- GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+  
+**DeepSeek 7B**
+
+- GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py**
 
 **To Run (example for LLaMA 3.1 8B):**
 
