@@ -174,59 +174,128 @@ ATC_LLM/
 │   ├── FAA, AIM, SOPs, Risk Mgt, sUAS Guide, Takeoff Min, etc.
 │   └── GENATC_LLM_Training_Documentation_drivelink.txt   # Public link reference (if files are too large for GitHub)
 
-
 ---
 
-## **How to Run**
+**How to Run This Repository**
 
-Before running, ensure dependencies are installed:
+This repository provides a modular pipeline for evaluating, fine-tuning, and generating synthetic ATC communications using Large Language Models (LLMs). It includes:
+
+Baseline QA evaluation (pre-finetuning)
+
+Post-finetuning QA assessment across multiple models
+
+Structured phraseology generation using domain-aligned templates
+
+**Step 1: Install Dependencies**
+
+Before running any script, ensure all required libraries are installed. This repository relies on a range of packages for LLM inference, PDF parsing, and multi-metric QA evaluation.
+
+**Recommended Installation **
+
+(One line)
+
+pip install torch transformers sentence-transformers scikit-learn pandas \
+    nltk rouge-score matplotlib psutil PyPDF2 editdistance bert-score
+
+
+Alternatively, you may install everything from a requirements.txt file if provided:
 
 pip install -r requirements.txt
-Each script focuses on a distinct part of the LLM fine-tuning or synthetic communication evaluation pipeline:
 
-**1. Fine-Tune and Evaluate on QA Pairs (Before Fine-Tuning)**
+⚠️ Note: Some warnings may occur when reading PDFs with PyPDF2. These are safely suppressed in the script using:
 
-Model Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
+warnings.filterwarnings("ignore", category=PdfReadWarning)
 
-Purpose:
-Runs baseline QA evaluations using the Phi-4 model before domain-specific fine-tuning.
+**Libraries Used in the Phi_QAPairs_PRE_FT_main.py Script**
 
-Run:
+| **Library**               | **Purpose**                                                                 |
+| ------------------------- | --------------------------------------------------------------------------- |
+| `torch`                   | Core deep learning framework; includes support for AMP and DataLoader       |
+| `transformers`            | Loads `AutoTokenizer` and `AutoModelForCausalLM` from Hugging Face          |
+| `sentence-transformers`   | Generates embeddings for cosine similarity scoring                          |
+| `scikit-learn`            | Provides `cosine_similarity` and evaluation utilities                       |
+| `nltk`                    | Enables BLEU and METEOR score computation                                   |
+| `rouge-score`             | Computes ROUGE-L metric for summarization and QA tasks                      |
+| `bert-score`              | Calculates semantic similarity using BERT embeddings                        |
+| `PyPDF2`                  | Parses PDF files for extracting training/evaluation text                    |
+| `editdistance`            | Computes Levenshtein edit distance for predicted vs reference answers       |
+| `psutil`                  | Monitors and logs CPU and memory usage during evaluation                    |
+| `csv`, `os`, `gc`, `time` | Python standard libraries used for file I/O, memory management, and logging |
+| `logging`, `warnings`     | Utility for runtime logging and warning suppression                         |
+
+
+**Step 2: Baseline QA Evaluation (Pre-Finetuning)**
+
+Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
+
+Purpose: Evaluates the Phi-4 model on domain QA pairs before fine-tuning.
+
+**To Run:**
 
 python GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
-Outputs:
 
-Cosine similarity, BLEU, ROUGE, edit distance, perplexity (pre-finetuning)
+**Output:**
 
-CSV of evaluation metrics for all questions
+Evaluation metrics: Cosine Similarity, BLEU, ROUGE-L, Edit Distance, Perplexity
 
+A CSV file summarizing QA performance for all questions
 
-**2. Fine-Tune and Evaluate QA Pairs — Post-Tuning (LLaMA 3.1 8B, Gemma 7B, DeepSeek 7B)**
+**Step 3: Post-Finetuning QA Evaluation**
 
-Model	Script
-- [x] LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
-- [x] Gemma 7B	GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
-- [x] DeepSeek 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py
+**Each script runs the same QA evaluation as above, but using models after domain-specific fine-tuning.**
 
+**Scripts and Models:
 
-**Run Example (LLaMA 3.1):**
+Model	Script**
+
+LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+Gemma 7B	GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+DeepSeek 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py
+
+**To Run (example for LLaMA 3.1 8B):**
+
 
 python GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
 
-Each script:
+**Output:**
 
-Loads model + tokenizer
+Model-specific QA accuracy CSVs (saved in the script directory)
 
-Evaluates against post-tuning QA pairs
+Metrics: Cosine Similarity, BLEU, ROUGE-L, Edit Distance, Perplexity, etc.
 
-Saves results to model-specific CSV
+**Step 4: Generate Synthetic Communications**
+
+These scripts use structured ATC templates and LLMs to generate realistic ATC dialogues.
+
+**Scripts:**
+
+Generate_SyntheticCom_Phi_main.py: General structured communication
+
+Generate_Com_Phi_4_PILOT_Initiated.py: Pilot-first dialogues (e.g., Pilot: ... ATC:)
+
+**To Run:**
+
+python Generate_SyntheticCom_Phi_main.py
+
+or
+
+python Generate_Com_Phi_4_PILOT_Initiated.py
+
+**Output:**
+
+Synthetic ATC conversation dataset saved to CSV
+
+Log of prompts and generated responses
+
+Can be evaluated with the same QA metrics for realism and accuracy
 
 
 **3. Synthetic ATC Communication Generation**
    
-Script: Generate_SyntheticCom_Phi_main.py
+**Script:** Generate_SyntheticCom_Phi_main.py
 
 Purpose:
+
 Generates ATC-style responses using a set of templated tags like: `<FH>, <RWY>, <TF>`
 
 Eg:
@@ -234,8 +303,8 @@ Eg:
 Pilot Prompt: Greensboro Tower, N466C7, ILS 23L, 8 miles out.
 ATC LLM Response: N466C7, wind 230 at 10, Runway 23L cleared to land.
 
-
-Evaluates realism with:
+**
+Evaluates realism with:**
 
 BLEU
 
@@ -245,11 +314,11 @@ Edit distance
 
 Perplexity
 
-Run:
+**Run:**
 
 python Generate_SyntheticCom_Phi_main.py
 
-Output:
+**Output:**
 
 CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthetic_conversation_metrics.csv
 
@@ -259,17 +328,18 @@ CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthe
 Model Script: Generate_Com_Phi_4_PILOT_Initiated.py
 
 Purpose:
+
 Specifically tests Phi-4 on pilot-initiated prompts to generate ATC responses and measure realism.
 
-Run:
+**Run:**
 
 python Generate_Com_Phi_4_PILOT_Initiated.py
 
-Output:
+**Output:**
 
 phi4_synthetic_conversation_metrics_PilotInitiated.csv
 
-Output Directory Structure (Recommended)
+**Output Directory Structure (Recommended)**
 
 /outputs
     /qa_evaluation/
@@ -280,6 +350,7 @@ Output Directory Structure (Recommended)
         phi4_synthetic_conversation_metrics.csv
         phi4_synthetic_conversation_metrics_PilotInitiated.csv
 
+---
 
 **Additional Notes:**
 
