@@ -104,7 +104,9 @@ Tags & Synthetic Template Types
 
 
 **Synthetic ATC Generation (Sample)**
-Pilot Prompt:
+
+**Pilot Prompt:**
+
 Greensboro Tower, N123AB, ILS 23L, 8 miles out.
 
 ATC LLM Response:
@@ -176,7 +178,7 @@ ATC_LLM/
 
 ---
 
-**How to Run This Repository**
+## **How to Run This Repository**
 
 This repository provides a modular pipeline for evaluating, fine-tuning, and generating synthetic ATC communications using Large Language Models (LLMs). It includes:
 
@@ -186,11 +188,12 @@ Post-finetuning QA assessment across multiple models
 
 Structured phraseology generation using domain-aligned templates
 
-**Step 1: Install Dependencies**
+## **Step 1: Install Dependencies**
 
 Before running any script, ensure all required libraries are installed. This repository relies on a range of packages for LLM inference, PDF parsing, and multi-metric QA evaluation.
 
-**Recommended Installation **
+
+Recommended Installation
 
 (One line)
 
@@ -224,7 +227,7 @@ warnings.filterwarnings("ignore", category=PdfReadWarning)
 | `logging`, `warnings`     | Utility for runtime logging and warning suppression                         |
 
 
-**Step 2: Baseline QA Evaluation (Pre-Finetuning)**
+## **Step 2: Baseline QA Evaluation (Pre-Finetuning)**
 
 Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
 
@@ -240,13 +243,13 @@ Evaluation metrics: Cosine Similarity, BLEU, ROUGE-L, Edit Distance, Perplexity
 
 A CSV file summarizing QA performance for all questions
 
-**Step 3: Post-Finetuning QA Evaluation**
+## **Step 3: Post-Finetuning QA Evaluation**
 
 **Each script runs the same QA evaluation as above, but using models after domain-specific fine-tuning.**
 
-**Scripts and Models:
+**Scripts and Models:**
 
-Model	Script**
+**Model	Script**
 
 LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
 Gemma 7B	GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
@@ -263,7 +266,7 @@ Model-specific QA accuracy CSVs (saved in the script directory)
 
 Metrics: Cosine Similarity, BLEU, ROUGE-L, Edit Distance, Perplexity, etc.
 
-**Step 4: Generate Synthetic Communications**
+## **Step 4: Generate Synthetic Communications**
 
 These scripts use structured ATC templates and LLMs to generate realistic ATC dialogues.
 
@@ -303,8 +306,7 @@ Eg:
 Pilot Prompt: Greensboro Tower, N466C7, ILS 23L, 8 miles out.
 ATC LLM Response: N466C7, wind 230 at 10, Runway 23L cleared to land.
 
-**
-Evaluates realism with:**
+**Evaluates realism with:**
 
 BLEU
 
@@ -323,7 +325,7 @@ python Generate_SyntheticCom_Phi_main.py
 CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthetic_conversation_metrics.csv
 
 
-**4. Pilot-Initiated Synthetic Dialogue Evaluation**
+## **4. Pilot-Initiated Synthetic Dialogue Evaluation**
 
 Model Script: Generate_Com_Phi_4_PILOT_Initiated.py
 
@@ -352,14 +354,14 @@ phi4_synthetic_conversation_metrics_PilotInitiated.csv
 
 ---
 
-**Additional Notes:**
+## **Additional Notes:**
 
 All models are loaded via transformers from Hugging Face
 
 Ensure GPU with bfloat16 or fp16 support is available for best performance
 
 
-**Research Impact:**
+## **Research Impact:**
 
 This project enables digital twin environments to simulate realistic ATC communication scenarios using Generative AI. The ability to generate and evaluate ATC conversations facilitates improved training, safety assessments, and automation integration.
 
