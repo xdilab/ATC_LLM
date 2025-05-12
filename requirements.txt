@@ -1,0 +1,13 @@
+
+torch
+transformers
+sentence-transformers
+scikit-learn
+pandas
+nltk
+rouge-score
+matplotlib
+psutil
+PyPDF2
+editdistance
+bert-score
