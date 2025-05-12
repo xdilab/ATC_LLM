@@ -70,11 +70,11 @@ IFR Alternate Airport Minimums	0.85	      0.91	  0.42	0.68	   3.1	     4.21     
 
 ---
 
-Sythetic Communication Generation
+**Sythetic Communication Generation**
 
-Tags & Synthetic Template Types
+**Tags & Synthetic Template Types**
 
-**Structured tags used in 100 synthetic communications**:
+**Structured tags used in 100 synthetic communications:**
 
 - `<FH>`: Flight callsign
 - `<ALT>`, `<NEW_ALT>`: Altitudes
@@ -182,13 +182,13 @@ ATC_LLM/
 
 ## **How to Run This Repository**
 
-This repository provides a modular pipeline for evaluating, fine-tuning, and generating synthetic ATC communications using Large Language Models (LLMs). It includes:
+This repository provides a modular pipeline for evaluating, fine-tuning, and generating synthetic ATC communications using Large Language Models (LLMs):
 
-Baseline QA evaluation (pre-finetuning)
+- Baseline QA evaluation (pre-finetuning)
 
-Post-finetuning QA assessment across multiple models
+- Post-finetuning QA assessment across multiple models
 
-Structured phraseology generation using domain-aligned templates
+- Structured phraseology generation using domain-aligned templates
 
 ## **Step 1: Install Dependencies**
 
@@ -208,9 +208,13 @@ Alternatively, you may install everything from a requirements.txt file if provid
 **pip install -r requirements.txt**
 
 
-⚠️ Note: Some warnings may occur when reading PDFs with PyPDF2. These are safely suppressed in the script using:
+⚠️ Note: Some warnings may occur when reading PDFs with PyPDF2. 
 
-warnings.filterwarnings("ignore", category=PdfReadWarning)
+These are safely suppressed in the script using:
+
+**warnings.filterwarnings("ignore", category=PdfReadWarning)**
+
+---
 
 **Libraries Used in the Phi_QAPairs_PRE_FT_main.py Script**
 
