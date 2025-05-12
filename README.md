@@ -270,7 +270,7 @@ A CSV file summarizing QA performance for all questions
   
 **DeepSeek 7B**
 
-- GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py**
+- GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py
 
 **To Run (example for LLaMA 3.1 8B):**
 
