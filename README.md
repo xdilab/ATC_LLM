@@ -130,7 +130,9 @@ Perplexity: 3.5
 
 **Model I/O Design**
 
-Model Input: Structured prompt with context
+**Model Input: **
+
+Structured prompt with context
 Context: [REFERENCE ANSWER] \n\nQuestion: [QUESTION] \nAnswer:
 
 Model Output: Predicted answer from LLM
@@ -197,13 +199,14 @@ Recommended Installation
 
 (One line)
 
-pip install torch transformers sentence-transformers scikit-learn pandas \
-    nltk rouge-score matplotlib psutil PyPDF2 editdistance bert-score
+**pip install torch transformers sentence-transformers scikit-learn pandas \
+    nltk rouge-score matplotlib psutil PyPDF2 editdistance bert-score**
 
 
 Alternatively, you may install everything from a requirements.txt file if provided:
 
-pip install -r requirements.txt
+**pip install -r requirements.txt**
+
 
 ⚠️ Note: Some warnings may occur when reading PDFs with PyPDF2. These are safely suppressed in the script using:
 
@@ -229,13 +232,15 @@ warnings.filterwarnings("ignore", category=PdfReadWarning)
 
 ## **Step 2: Baseline QA Evaluation (Pre-Finetuning)**
 
-Script: GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
+**Script: **
+
+**GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py**
 
 Purpose: Evaluates the Phi-4 model on domain QA pairs before fine-tuning.
 
 **To Run:**
 
-python GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py
+**python GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py**
 
 **Output:**
 
@@ -251,14 +256,14 @@ A CSV file summarizing QA performance for all questions
 
 **Model	Script**
 
-LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+**LLaMA 3.1 8B	GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
 Gemma 7B	GEN_ATC_LLM_GEMMA_7B_Accuracy_QAPairs_POST_FT_MAXT_main.py
-DeepSeek 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py
+DeepSeek 7B	GEN_ATC_LLM_DeepSeek_7B_Accuracy_QAPairs_POST_FT_V3_main.py**
 
 **To Run (example for LLaMA 3.1 8B):**
 
 
-python GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py
+**python GEN_ATC_LLM_LLAMA_3.1_8B_Accuracy_QAPairs_POST_FT_MAXT_main.py**
 
 **Output:**
 
@@ -272,17 +277,17 @@ These scripts use structured ATC templates and LLMs to generate realistic ATC di
 
 **Scripts:**
 
-Generate_SyntheticCom_Phi_main.py: General structured communication
+**Generate_SyntheticCom_Phi_main.py** : General structured communication
 
 Generate_Com_Phi_4_PILOT_Initiated.py: Pilot-first dialogues (e.g., Pilot: ... ATC:)
 
 **To Run:**
 
-python Generate_SyntheticCom_Phi_main.py
+**python Generate_SyntheticCom_Phi_main.py**
 
 or
 
-python Generate_Com_Phi_4_PILOT_Initiated.py
+**python Generate_Com_Phi_4_PILOT_Initiated.py**
 
 **Output:**
 
@@ -318,16 +323,20 @@ Perplexity
 
 **Run:**
 
-python Generate_SyntheticCom_Phi_main.py
+**python Generate_SyntheticCom_Phi_main.py**
 
 **Output:**
 
-CSV with 100 synthetic prompt-response pairs and evaluation metrics: phi4_synthetic_conversation_metrics.csv
+CSV with 100 synthetic prompt-response pairs and evaluation metrics: 
+
+**phi4_synthetic_conversation_metrics.csv**
 
 
 ## **4. Pilot-Initiated Synthetic Dialogue Evaluation**
 
-Model Script: Generate_Com_Phi_4_PILOT_Initiated.py
+**Model Script:** 
+
+**Generate_Com_Phi_4_PILOT_Initiated.py**
 
 Purpose:
 
@@ -335,11 +344,11 @@ Specifically tests Phi-4 on pilot-initiated prompts to generate ATC responses an
 
 **Run:**
 
-python Generate_Com_Phi_4_PILOT_Initiated.py
+**python Generate_Com_Phi_4_PILOT_Initiated.py**
 
 **Output:**
 
-phi4_synthetic_conversation_metrics_PilotInitiated.csv
+**phi4_synthetic_conversation_metrics_PilotInitiated.csv**
 
 **Output Directory Structure (Recommended)**
 
