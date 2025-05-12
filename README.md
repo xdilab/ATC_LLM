@@ -130,7 +130,7 @@ Perplexity: 3.5
 
 **Model I/O Design**
 
-**Model Input: **
+**Model Input:**
 
 Structured prompt with context
 Context: [REFERENCE ANSWER] \n\nQuestion: [QUESTION] \nAnswer:
@@ -232,7 +232,7 @@ warnings.filterwarnings("ignore", category=PdfReadWarning)
 
 ## **Step 2: Baseline QA Evaluation (Pre-Finetuning)**
 
-**Script: **
+**Script:**
 
 **GEN_ATC_LLM_Phi_QAPairs_PRE_FT_main.py**
 
@@ -385,7 +385,7 @@ If this repository or method supports your work, please cite:
 }
 
 
-**Acknowledgements:**
+## **Acknowledgements:**
 
 Special thanks to:
 
@@ -397,7 +397,7 @@ OpenAI, Google, Meta, Microsoft, and Hugging Face for model access and tooling
 
 
 
-**Contact**
+## **Contact**
 
 Stefan Green
 Ph.D. Researcher, Computer Science
